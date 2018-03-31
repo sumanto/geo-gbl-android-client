@@ -102,70 +102,70 @@ public class ScrambleStatistics extends AppCompatActivity {
 
     // Used to cache scramble statistics
     private Map<String, List<List<String>>> getScrambleStatistics() {
-        Map<String, List<List<String>>> map = service.getScrambleStatistics();
-        if (map != null) {
-            Log.d(msg, "using cached scramble statistics");
-            return map;
-        }
-
-        Log.d(msg, "cache miss for scramble statistics");
-
-        map = new HashMap<>();
-        List<List<String>> players = service.retrievePlayerListService();
-        List<List<String>> scrambles = service.retrieveScrambleService();
-        Log.d(msg, "Players: " + players);
-        Log.d(msg, "Scrambles: " + scrambles);
-
-        // Get list of users for each scramble solved
-        Map<String, List<String>> scramblesSolved = new HashMap<>();
-        for (List<String> player: players) {
-            int index = 4;
-            while (index < player.size()) {
-                String scrambleId = player.get(index);
-                if (scramblesSolved.get(scrambleId) == null) {
-                    scramblesSolved.put(scrambleId, new ArrayList<String>());
-                }
-                scramblesSolved.get(scrambleId).add(player.get(0));
-                index++;
-            }
-        }
-        Log.d(msg, "solved: " + scramblesSolved);
-
-        // Get the data in a format we can sort and display later
-        for (List<String> scramble: scrambles) {
-            List<String> scrambleStatistic = new ArrayList<>();
-
-            // 1st place: id
-            String scrambleId = scramble.get(0);
-            scrambleStatistic.add(scrambleId);
-
-            // 2nd place: number of times any player has solved them
-            List<String> solvedUserIds = scramblesSolved.get(scrambleId);
-            if (solvedUserIds == null) {
-                solvedUserIds = new ArrayList<>();
-            }
-            scrambleStatistic.add(Integer.toString(solvedUserIds.size()));
-
-            // 3nd place: solved or created by player
-            String relationship = "None";
-            if (scramble.get(4).equals(service.getCurrentUsername())) {
-                relationship = "Creator";
-            } else if (solvedUserIds.indexOf(service.getCurrentUsername()) > 0) {
-                relationship = "Solver";
-            }
-            scrambleStatistic.add(relationship);
-
-            // Add to map by times solved
-            List<List<String>> existing = map.get(scrambleStatistic.get(1));
-            if (existing == null) {
-                existing = new ArrayList<>();
-            }
-            existing.add(scrambleStatistic);
-            map.put(scrambleStatistic.get(1), existing);
-        }
-
-        service.setScrambleStatistics(map);
-        return map;
+//        Map<String, List<List<String>>> map = service.getScrambleStatistics();
+//        if (map != null) {
+//            Log.d(msg, "using cached scramble statistics");
+//            return map;
+//        }
+//
+//        Log.d(msg, "cache miss for scramble statistics");
+//
+//        map = new HashMap<>();
+//        List<List<String>> players = service.retrievePlayerListService();
+//        List<List<String>> scrambles = service.retrieveScrambleService();
+//        Log.d(msg, "Players: " + players);
+//        Log.d(msg, "Scrambles: " + scrambles);
+//
+//        // Get list of users for each scramble solved
+//        Map<String, List<String>> scramblesSolved = new HashMap<>();
+//        for (List<String> player: players) {
+//            int index = 4;
+//            while (index < player.size()) {
+//                String scrambleId = player.get(index);
+//                if (scramblesSolved.get(scrambleId) == null) {
+//                    scramblesSolved.put(scrambleId, new ArrayList<String>());
+//                }
+//                scramblesSolved.get(scrambleId).add(player.get(0));
+//                index++;
+//            }
+//        }
+//        Log.d(msg, "solved: " + scramblesSolved);
+//
+//        // Get the data in a format we can sort and display later
+//        for (List<String> scramble: scrambles) {
+//            List<String> scrambleStatistic = new ArrayList<>();
+//
+//            // 1st place: id
+//            String scrambleId = scramble.get(0);
+//            scrambleStatistic.add(scrambleId);
+//
+//            // 2nd place: number of times any player has solved them
+//            List<String> solvedUserIds = scramblesSolved.get(scrambleId);
+//            if (solvedUserIds == null) {
+//                solvedUserIds = new ArrayList<>();
+//            }
+//            scrambleStatistic.add(Integer.toString(solvedUserIds.size()));
+//
+//            // 3nd place: solved or created by player
+//            String relationship = "None";
+//            if (scramble.get(4).equals(service.getCurrentUsername())) {
+//                relationship = "Creator";
+//            } else if (solvedUserIds.indexOf(service.getCurrentUsername()) > 0) {
+//                relationship = "Solver";
+//            }
+//            scrambleStatistic.add(relationship);
+//
+//            // Add to map by times solved
+//            List<List<String>> existing = map.get(scrambleStatistic.get(1));
+//            if (existing == null) {
+//                existing = new ArrayList<>();
+//            }
+//            existing.add(scrambleStatistic);
+//            map.put(scrambleStatistic.get(1), existing);
+//        }
+//
+//        service.setScrambleStatistics(map);
+        return null;
     }
 
     // util method to add textview

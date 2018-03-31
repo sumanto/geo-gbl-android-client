@@ -3,9 +3,17 @@
     <string name="author">Author: Sumanto Biswas"</string>
 
     <!-- String for login page -->
-    <string name="login_text_welcome">Welcome to the Word Scramble!</string>
+    <string name="login_text_welcome">Welcome to the Geoography Game Based Learning Game!</string>
     <string name="login_text_create_select">Enter Username to login or Select Create player</string>
+
+    <string name="splash_continue">Continue</string>
+
+    <string name="login_teacher">Login as educator!</string>
+    <string name="login_student">Login as student!</string>
+
     <string name="login_text_username">Username</string>
+    <string name="login_text_name">User\'s name</string>
+
     <string name="login_button_login">Login</string>
     <string name="login_button_create_player">Create Player</string>
 

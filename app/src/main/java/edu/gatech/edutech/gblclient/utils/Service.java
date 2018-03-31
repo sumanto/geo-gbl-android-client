@@ -10,15 +10,13 @@ public class Service {
     private static Service singleton = new Service();
     // private static ExternalWebService externalWebService;
 
-    private List<List<String>> players;
-    private List<List<String>> scrambles;
-
-    private Map<String, List<List<String>>> scrambleStatistics;
+//    private List<List<String>> players;
+//    private List<List<String>> scrambles;
+//
+//    private Map<String, List<List<String>>> scrambleStatistics;
 
     private String userName;
-    private String firstName;
-    private String lastName;
-    private String email;
+    private String userFullName;
 
 
     /**
@@ -44,38 +42,35 @@ public class Service {
         return false;
     }
 
-    public List<List<String>> retrievePlayerListService() {
-//        if (players == null) {
-//            players = externalWebService.retrievePlayerListService();
-//        }
-        return players;
-    }
-
-    public List<List<String>> retrieveScrambleService() {
-//        if (scrambles == null) {
-//            scrambles = externalWebService.retrieveScrambleService();
-//        }
-        return scrambles;
-    }
-
-    public String newScrambleService(String answer, String scrambled, String clue, String creator) throws SocketTimeoutException, IllegalArgumentException {
-        // New scramble means that existing list of scrambles is stale, essentially we clear cache
-        clearCache();
-
-        // return externalWebService.newScrambleService(answer, scrambled, clue, creator);
-        return null;
-    }
+//    public List<List<String>> retrievePlayerListService() {
+////        if (players == null) {
+////            players = externalWebService.retrievePlayerListService();
+////        }
+//        return players;
+//    }
+//
+//    public List<List<String>> retrieveScrambleService() {
+////        if (scrambles == null) {
+////            scrambles = externalWebService.retrieveScrambleService();
+////        }
+//        return scrambles;
+//    }
+//
+//    public String newScrambleService(String answer, String scrambled, String clue, String creator) throws SocketTimeoutException, IllegalArgumentException {
+//        // New scramble means that existing list of scrambles is stale, essentially we clear cache
+//        clearCache();
+//
+//        // return externalWebService.newScrambleService(answer, scrambled, clue, creator);
+//        return null;
+//    }
+//
 
     public void clearCache() {
-        scrambles = null;
-        players = null;
-        scrambleStatistics = null;
     }
+
 
     public void fillCache() {
         clearCache();
-        retrievePlayerListService();
-        retrieveScrambleService();
     }
 
 
@@ -85,23 +80,19 @@ public class Service {
 
     public void resetUser() {
         this.userName = null;
-        this.firstName = null;
-        this.lastName = null;
-        this.email = null;
+        this.userFullName = null;
     }
 
-    public void setUser(String userName, String firstName, String lastName, String email) {
+    public void setUser(String userName, String userFullName) {
         this.userName = userName;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
+        this.userFullName = userFullName;
     }
 
-    public void setScrambleStatistics(Map<String, List<List<String>>> scrambleStatistics) {
-        this.scrambleStatistics = scrambleStatistics;
-    }
-
-    public Map<String, List<List<String>>> getScrambleStatistics() {
-        return scrambleStatistics;
-    }
+//    public void setScrambleStatistics(Map<String, List<List<String>>> scrambleStatistics) {
+//        this.scrambleStatistics = scrambleStatistics;
+//    }
+//
+//    public Map<String, List<List<String>>> getScrambleStatistics() {
+//        return scrambleStatistics;
+//    }
 }

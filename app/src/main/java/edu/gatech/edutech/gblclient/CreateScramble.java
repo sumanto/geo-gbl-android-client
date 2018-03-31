@@ -242,7 +242,7 @@ public class CreateScramble extends AppCompatActivity {
                         String getscramble = scrambledText.toString();
                         String getclue = clue.getText().toString();
                         String getcurrentuser = current_username.toString();
-                        scrambleID = service.newScrambleService(getanswer,getscramble,getclue,getcurrentuser);
+                        // scrambleID = service.newScrambleService(getanswer,getscramble,getclue,getcurrentuser);
 
                         //Log.d("Created Scrambled ID: ",scrambleID);
                         //Add scramble data to database  *********
@@ -257,10 +257,10 @@ public class CreateScramble extends AppCompatActivity {
                         phrase.setText("");
                         scrambledPhrase.setText("");
                         clue.setText("");
-                    }
-                    catch (SocketTimeoutException e) {
-
-                        e.printStackTrace();
+//                    }
+//                    catch (SocketTimeoutException e) {
+//
+//                        e.printStackTrace();
                     } catch (IllegalArgumentException e) {
 
                         e.printStackTrace();

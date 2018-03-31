@@ -17,59 +17,82 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:textSize="30sp"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="@string/login_text_welcome" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_marginTop="5dp"
-        android:text="@string/login_text_create_select" />
+        android:text="@string/login_teacher" />
+
     <EditText
-        android:id="@+id/inputUserName"
+        android:id="@+id/inputTeacherUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="10dp"
-        android:hint="@string/login_text_username"/>
-    <Button
-        android:id="@+id/buttonLogin"
+        android:hint="@string/login_text_username" />
+
+    <EditText
+        android:id="@+id/inputTeacherName"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/login_text_name" />
+
+    <Button
+        android:id="@+id/buttonTeacherLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
         android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
+        android:gravity="center"
         android:text="@string/login_button_login"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:gravity="center"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/buttonCreatePlayer"
+        android:textColor="@color/textcolor" />
+
+    <TextView
         android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="@string/login_button_create_player"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:gravity="center"
+        android:text="@string/login_student"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputStudentUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/login_text_username" />
+
+    <EditText
+        android:id="@+id/inputStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/login_text_name" />
+
+    <Button
+        android:id="@+id/buttonStudentLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginTop="10dp"
-        android:layout_height="wrap_content" />
+        android:background="@color/backgroundcolor"
+        android:gravity="center"
+        android:text="@string/login_button_login"
+        android:textColor="@color/textcolor" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="@android:color/black"
-        android:layout_gravity="bottom"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:text="@string/author" />
 
 </LinearLayout>

@@ -37,7 +37,7 @@ public class ScrambleList extends AppCompatActivity {
         });
 
         utility = (Utility)getApplicationContext();
-        scrambles = service.retrieveScrambleService();
+//        scrambles = service.retrieveScrambleService();
 
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);

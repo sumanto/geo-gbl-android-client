@@ -1,0 +1,107 @@
+{
+  "title": "US Cities Geography game",
+  "description": "Geography game to learn about US cities",
+  "main": {
+    "welcome": "You will have to catch a fictional character, but keep your brains sharp as you will need it."
+  },
+  "gameplay": {
+    "welcome": "Landmarco Steallioni has just stolen an important landmark, can you catch him before he can get away with it.",
+    "success": "You have successfully caught Landmarco Steallioni and restored sanity.",
+    "failure": "Landmarco Steallioni has escaped your grasp. Better luck next time."
+  },
+  "cities": {
+    "San Francisco": {
+      "name": "San Francisco",
+      "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+      "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+      "wikipedia": "https://www.wikiwand.com/en/San_Francisco",
+      "wikitravel": "https://wikitravel.org/en/San_Francisco",
+      "locations": [],
+      "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "description": "",
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "New York": {
+      "name": "New York",
+      "description": "",
+      "wikipedia": "",
+      "wikitravel": "",
+      "locations": [],
+      "nicknames": {
+      },
+      "landmarks": {
+        "Brooklyn Bridge": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Washington DC": {
+      "name": "Washington DC",
+      "description": "",
+      "wikipedia": "",
+      "wikitravel": "",
+      "locations": [],
+      "nicknames": [ "DC", "The American Rome", "The District", "The Federal City", "The Capital of the Free World" ],
+      "landmarks": {
+        "The White House": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The White House", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Los Angeles": {
+      "name": "Los Angeles",
+      "description": "\"Los Angeles\" is the entertainment capital of the world",
+      "wikipedia": "",
+      "wikitravel": "",
+      "locations": [],
+      "nicknames": [ "The Big Orange", "City of Angels", "City of Flowers and Sunshine", "La La Land" ],
+      "landmarks": {
+        "Brooklyn Bridge": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Staples Center Stadium" ]
+    }
+  }
+}

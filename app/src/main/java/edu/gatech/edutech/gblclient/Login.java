@@ -23,19 +23,10 @@ public class Login extends AppCompatActivity {
 
     Service service = Service.getInstance();
     Utility utility;
-    private static Map<String, List<String>> players = new HashMap<String, List<String>>();
 
-    EditText userName;
-    Button buttonLogin;
-    Button buttonCreatePlayer;
+    EditText inputTeacherUserName, inputTeacherName, inputStudentUserName, inputStudentName;
+    Button buttonTeacherLogin, buttonStudentLogin;
 
-    PlayerStatistices playerStatistices;
-
-    //Database Initialize
-    private DBManager dbManager;
-
-    // Setup local list of users to use
-    List<List<String>> users = service.retrievePlayerListService();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,76 +34,59 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.d(msg, "The onCreate() event");
 
-        dbManager = new DBManager(this);
-        dbManager.open();
-        //Add users from database to ExternalWebService
-
-        // List allExistingUsers =  dbManager.getAllData("PLAYERS");
-        // Log.d(msg, "Existing players in db: " + allExistingUsers);
-
         utility = (Utility) getApplicationContext();
-        utility.setDbManager(dbManager);
 
-        for (List<String> user : users) {
-            players.put(user.get(0), user);
-            playerStatistices = new PlayerStatistices();
-            utility.setPlayerStatistices(playerStatistices, user.get(0));
-            Log.d(msg, user.get(0));
-        }
+        buttonTeacherLogin = (Button) findViewById(R.id.buttonTeacherLogin);
+        inputTeacherUserName = (EditText) findViewById(R.id.inputTeacherUserName);
+        inputTeacherName = (EditText) findViewById(R.id.inputTeacherName);
 
+        buttonTeacherLogin.setHint("Teacher login is not implemented");
+        buttonTeacherLogin.setEnabled(false);
+        inputTeacherUserName.setEnabled(false);
+        inputTeacherName.setEnabled(false);
 
-        // User not logged in
-        service.resetUser();
+        buttonStudentLogin = (Button) findViewById(R.id.buttonStudentLogin);
+        inputStudentUserName = (EditText) findViewById(R.id.inputStudentUserName);
+        inputStudentName = (EditText) findViewById(R.id.inputStudentName);
 
-        buttonLogin = (Button) findViewById(R.id.buttonLogin);
-        buttonCreatePlayer = (Button) findViewById(R.id.buttonCreatePlayer);
-        userName = (EditText) findViewById(R.id.inputUserName);
-
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
+        buttonStudentLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(msg, "Login button clicked");
 
-                String user = userName.getText().toString();
+                String userName = inputStudentUserName.getText().toString();
+                if (userName.length() == 0) {
+                    inputStudentUserName.setError("You need non-empty username to login");
+                    return;
+                }
+
+                String user = inputStudentName.getText().toString();
                 if (user.length() == 0) {
-                    userName.setError("You need non-empty username to login");
+                    inputStudentName.setError("You need non-empty name to login");
                     return;
                 }
 
-                List<String> player = players.get(userName.getText().toString());
-                if (player == null) {
-                    userName.setError("Invalid Username");
-                    Log.d(msg, "Invalid username, " + user + ", valid usernames: " + players.keySet().toString());
-                    return;
-                }
+//                // Means the username is correct, continue to next page
+//                service.setUser(player.get(0), player.get(1), player.get(2), player.get(3));
 
-                // Means the username is correct, continue to next page
-                service.setUser(player.get(0), player.get(1), player.get(2), player.get(3));
-                // Fill up cache
-                service.fillCache();
-                utility.setCURRENT_USER(player.get(0));
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//                // Fill up cache
+//                service.fillCache();
 
-        buttonCreatePlayer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(msg, "Create Player button clicked");
+//                utility.setCURRENT_USER(player.get(0));
 
-                // Username is not validated
-                Intent intent = new Intent(getApplicationContext(), CreatePlayer.class);
-                startActivity(intent);
-                finish();
+//                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+//                startActivity(intent);
             }
         });
     }
+
+
     @Override
     protected void onStart() {
         super.onStart();
         Log.d(msg, "The onStart() event");
     }
+
 
     @Override
     protected void onResume() {

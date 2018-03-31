@@ -41,15 +41,15 @@ public class PlayerStatistics extends AppCompatActivity {
         });
 
         utility = (Utility) getApplicationContext();
-        List<List<String>> users = service.retrievePlayerListService();
-
-        for (List<String> user: users) {
-            PlayerStatistices playerStatistices = utility.GetplayerStatistices(user.get(0));
-            if (playerStatistices!=null) {
-                playerStatistices.setUsername(user.get(0));
-                Playerstatices.add(playerStatistices);
-            }
-        }
+//        List<List<String>> users = service.retrievePlayerListService();
+//
+//        for (List<String> user: users) {
+//            PlayerStatistices playerStatistices = utility.GetplayerStatistices(user.get(0));
+//            if (playerStatistices!=null) {
+//                playerStatistices.setUsername(user.get(0));
+//                Playerstatices.add(playerStatistices);
+//            }
+//        }
 
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
