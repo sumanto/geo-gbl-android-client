@@ -8,13 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.util.Log;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 // import com.gatech.yourapp.R;
-import edu.gatech.edutech.gblclient.objects.PlayerStatistices;
-import edu.gatech.edutech.gblclient.utils.DBManager;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
@@ -36,18 +30,18 @@ public class Login extends AppCompatActivity {
 
         utility = (Utility) getApplicationContext();
 
-        buttonTeacherLogin = (Button) findViewById(R.id.buttonTeacherLogin);
-        inputTeacherUserName = (EditText) findViewById(R.id.inputTeacherUserName);
-        inputTeacherName = (EditText) findViewById(R.id.inputTeacherName);
+        buttonTeacherLogin = findViewById(R.id.buttonTeacherLogin);
+        inputTeacherUserName = findViewById(R.id.inputTeacherUserName);
+        inputTeacherName = findViewById(R.id.inputTeacherName);
+
+        buttonStudentLogin = findViewById(R.id.buttonStudentLogin);
+        inputStudentUserName = findViewById(R.id.inputStudentUserName);
+        inputStudentName = findViewById(R.id.inputStudentName);
 
         buttonTeacherLogin.setHint("Teacher login is not implemented");
         buttonTeacherLogin.setEnabled(false);
         inputTeacherUserName.setEnabled(false);
         inputTeacherName.setEnabled(false);
-
-        buttonStudentLogin = (Button) findViewById(R.id.buttonStudentLogin);
-        inputStudentUserName = (EditText) findViewById(R.id.inputStudentUserName);
-        inputStudentName = (EditText) findViewById(R.id.inputStudentName);
 
         buttonStudentLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,10 +68,19 @@ public class Login extends AppCompatActivity {
 
 //                utility.setCURRENT_USER(player.get(0));
 
-//                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), Main.class);
+                startActivity(intent);
             }
         });
+
+//        buttonExit.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(), SplashScreen.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
     }
 
 

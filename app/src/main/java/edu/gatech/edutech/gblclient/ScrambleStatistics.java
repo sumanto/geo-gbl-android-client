@@ -13,8 +13,6 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeSet;
@@ -92,7 +90,7 @@ public class ScrambleStatistics extends AppCompatActivity {
                 Log.d(msg, "Back button clicked");
 
                 // Username is not validated
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
                 finish();
             }

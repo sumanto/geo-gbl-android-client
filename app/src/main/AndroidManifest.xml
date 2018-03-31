@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
+        <activity android:name=".Main" />
         <!--
         <activity android:name=".Login">
             <intent-filter>
@@ -25,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Main" />
         <activity android:name=".ScrambleStatistics" />
         <activity android:name=".CreatePlayer" />
         <activity android:name=".PlayerStatistics" />

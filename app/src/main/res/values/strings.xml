@@ -2,20 +2,29 @@
     <string name="app_name">"Geography GBL App"</string>
     <string name="author">Author: Sumanto Biswas"</string>
 
+    <!-- Common page actions -->
+    <string name="label_continue">Continue</string>
+    <string name="label_exit">Exit</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_logout">Logout</string>
+
+    <!-- String for splash page -->
+    <string name="splash_text_welcome">Welcome to the Geoography Game Based Learning Game!</string>
+    <string name="splash_text_create_select">Enter Username to login or Select Create player</string>
+
     <!-- String for login page -->
-    <string name="login_text_welcome">Welcome to the Geoography Game Based Learning Game!</string>
-    <string name="login_text_create_select">Enter Username to login or Select Create player</string>
-
-    <string name="splash_continue">Continue</string>
-
     <string name="login_teacher">Login as educator!</string>
     <string name="login_student">Login as student!</string>
-
     <string name="login_text_username">Username</string>
     <string name="login_text_name">User\'s name</string>
 
     <string name="login_button_login">Login</string>
-    <string name="login_button_create_player">Create Player</string>
+
+    <!-- String for main page -->
+    <string name="main_what">What do you want to do?</string>
+    <string name="main_travel">> Travel to the next destination</string>
+    <string name="main_thief_attrs">> Enter attributes of the thief</string>
+    <string name="main_warrant">> Issue warrant</string>
 
     <!-- String for scramble statistics page -->
     <string name="scramble_statistics_id">Id</string>

@@ -11,7 +11,6 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.gatech.edutech.gblclient.adopters.Scramble_List_Adopter;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
@@ -19,7 +18,6 @@ public class ScrambleList extends AppCompatActivity {
 
     List<List<String>> scrambles=new ArrayList<List<String>>();
     private RecyclerView recyclerView;
-    private Scramble_List_Adopter mAdapter;
     Utility utility;
     Service service = Service.getInstance();
     Button back;
@@ -36,27 +34,27 @@ public class ScrambleList extends AppCompatActivity {
             }
         });
 
-        utility = (Utility)getApplicationContext();
-//        scrambles = service.retrieveScrambleService();
-
-
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        mAdapter = new Scramble_List_Adopter(scrambles, getApplicationContext(), ScrambleList.this,utility);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(mAdapter);
+//        utility = (Utility)getApplicationContext();
+////        scrambles = service.retrieveScrambleService();
+//
+//
+//        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+//        mAdapter = new Scramble_List_Adopter(scrambles, getApplicationContext(), ScrambleList.this,utility);
+//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+//        recyclerView.setLayoutManager(mLayoutManager);
+//        recyclerView.setItemAnimator(new DefaultItemAnimator());
+//        recyclerView.setAdapter(mAdapter);
 
     }
 
     @Override
     protected void onResume() {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        mAdapter = new Scramble_List_Adopter(scrambles, getApplicationContext(),ScrambleList.this, utility);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(mAdapter);
+//        mAdapter = new Scramble_List_Adopter(scrambles, getApplicationContext(),ScrambleList.this, utility);
+//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+//        recyclerView.setLayoutManager(mLayoutManager);
+//        recyclerView.setItemAnimator(new DefaultItemAnimator());
+//        recyclerView.setAdapter(mAdapter);
         super.onResume();
     }
 }

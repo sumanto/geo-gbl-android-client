@@ -46,36 +46,21 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         Log.d(msg, "The onCreate() event");
 
-        utility = (Utility) getApplicationContext();
+        // utility = (Utility) getApplicationContext();
+        Service service = Service.getInstance();
 
         buttonContinue = findViewById(R.id.buttonContinue);
         textTitle = findViewById(R.id.textTitle);
         textSubtitle = findViewById(R.id.textSubtitle);
         textWelcome = findViewById(R.id.textWelcome);
 
-        // String contents = new String(Files.readAllBytes(Paths.get("manifest.mf")));
         AssetManager am = getApplicationContext().getAssets();
 
-        JSONObject gameMetadata = null;
-        try {
-            InputStream is = am.open("game_metadata.json");
-            String contents = convertStreamToString(is);
-            Log.d(msg, "Contents: " + contents);
-            gameMetadata = new JSONObject(contents);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        JSONObject gameMetadata = Utility.getJSONObjectFromAssetFile(am, "game_metadata.json");
+        service.setGameMetadata(gameMetadata);
 
-        JSONObject cityMetadata = null;
-        try {
-            InputStream is = am.open("us_cities.json");
-            String contents = convertStreamToString(is);
-            Log.d(msg, "Contents: " + contents);
-            cityMetadata = new JSONObject(contents);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+        JSONObject cityMetadata = Utility.getJSONObjectFromAssetFile(am, "us_cities.json");;
+        service.setCityMetadata(gameMetadata);
 
         try {
             textTitle.setText(cityMetadata.getString("title"));
@@ -109,26 +94,5 @@ public class SplashScreen extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.d(msg, "The onResume() event");
-    }
-
-    public static String convertStreamToString(InputStream is) throws Exception {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-        StringBuilder sb = new StringBuilder();
-        String line = null;
-        while ((line = reader.readLine()) != null) {
-            sb.append(line).append("\n");
-        }
-        reader.close();
-        return sb.toString();
-    }
-
-
-    public static String getStringFromFile (String filePath) throws Exception {
-        File fl = new File(filePath);
-        FileInputStream fin = new FileInputStream(fl);
-        String ret = convertStreamToString(fin);
-        //Make sure you close all streams.
-        fin.close();
-        return ret;
     }
 }

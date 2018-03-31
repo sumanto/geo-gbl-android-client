@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -11,72 +11,108 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="edu.gatech.edutech.gblclient.MainActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="Word Scramble" />
-    <Button
-        android:id="@+id/createscramble"
-        android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="Create Scramble"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:gravity="center"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/playscramble"
-        android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="Play Scramble"
-        android:gravity="center"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/scramblestatistices"
-        android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="Scramble Statistices"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:gravity="center"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/playerstatistices"
-        android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="Player Statistices"
-        android:gravity="center"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/exit"
-        android:layout_width="match_parent"
-        android:background="@color/backgroundcolor"
-        android:textColor="@color/textcolor"
-        android:text="Exit"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:gravity="center"
-        android:layout_height="wrap_content" />
+    tools:context="edu.gatech.edutech.gblclient.Main">
 
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:text="Date: Time: "
+        android:padding = "1dp"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textHistory"
+        android:layout_width="380dp"
+        android:layout_height="316dp"
+        android:layout_marginTop="5dp"
+        android:padding = "5dp"
+        android:gravity="left"
+        android:maxLines="1000"
+        android:scrollbars="vertical"
+        android:text="@string/login_teacher"
+        android:textColor="@android:color/black"
+        android:background="@drawable/back"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/main_what"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPersonAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Talk to someone"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textPlaceAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Check something out"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textTravelAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="@string/main_travel"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textThiefAttributesAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="@string/main_thief_attrs"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textWarrantAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="@string/main_warrant"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="@string/label_logout"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
 
 
 </LinearLayout>

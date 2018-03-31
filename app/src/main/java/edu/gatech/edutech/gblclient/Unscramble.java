@@ -1,22 +1,14 @@
 package edu.gatech.edutech.gblclient;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import edu.gatech.edutech.gblclient.objects.PlayerStatistices;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.gatech.edutech.gblclient.objects.InProgress;
-import edu.gatech.edutech.gblclient.utils.DBManager;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
@@ -30,12 +22,8 @@ public class Unscramble extends AppCompatActivity {
     ArrayList<String> scrambledetails;
     List<List<String>> scrambles = new ArrayList<List<String>>();
 
-    InProgress inProgress;
     Utility utility;
     Service service = Service.getInstance();
-    //Database Initialize
-    private DBManager dbManager;
-    PlayerStatistices playerStatistics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
