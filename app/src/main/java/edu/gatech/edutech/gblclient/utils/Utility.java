@@ -6,11 +6,14 @@ import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.util.Log;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -56,5 +59,20 @@ public class Utility extends Application {
 
         int randomNum = ThreadLocalRandom.current().nextInt(0, data.size() - 1);
         return data.get(randomNum);
+    }
+
+
+    public static List<String> convertJSONArrayToList(JSONArray jsonArray) {
+        ArrayList<String> listData = new ArrayList<String>();
+        if (jsonArray != null) {
+            for (int i=0;i<jsonArray.length();i++) {
+                try {
+                    listData.add(jsonArray.getString(i));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return listData;
     }
 }

@@ -10,9 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import edu.gatech.edutech.gblclient.utils.Service;
+
 public class Main extends AppCompatActivity {
 
-    TextView textHistory, textLogout;
+    Service service = Service.getInstance();
+    TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

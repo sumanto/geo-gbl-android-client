@@ -9,6 +9,13 @@ import android.widget.EditText;
 import android.util.Log;
 
 // import com.gatech.yourapp.R;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
@@ -28,6 +35,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Log.d(msg, "The onCreate() event");
 
+        service.clearCache();
         utility = (Utility) getApplicationContext();
 
         buttonTeacherLogin = findViewById(R.id.buttonTeacherLogin);
@@ -60,27 +68,35 @@ public class Login extends AppCompatActivity {
                     return;
                 }
 
-//                // Means the username is correct, continue to next page
-//                service.setUser(player.get(0), player.get(1), player.get(2), player.get(3));
+                // Fill up cache
+                service.setUser(userName, user);
 
-//                // Fill up cache
-//                service.fillCache();
+                // Set thief attributes
+                JSONObject gameMetadata = service.getGameMetadata();
 
-//                utility.setCURRENT_USER(player.get(0));
+                ThiefAttributes thiefAttributes = service.getThiefAttributes();
+                try {
+                    List<String> sexList = new ArrayList<>();
+                    sexList.add("male");
+                    sexList.add("female");
+                    thiefAttributes.setSex(Utility.getRandomData(sexList));
+
+                    thiefAttributes.setEyes(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("eyes").names())));
+                    thiefAttributes.setHair(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hair").names())));
+                    thiefAttributes.setHobby(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hobby").names())));
+                    thiefAttributes.setFood(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("food").names())));
+                    thiefAttributes.setFeature(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("feature").names())));
+                    thiefAttributes.setVehicle(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("vehicle").names())));
+
+                    Log.d(msg, "Thief attributes: " + thiefAttributes.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
 
                 Intent intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
             }
         });
-
-//        buttonExit.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(), SplashScreen.class);
-//                startActivity(intent);
-//                finish();
-//            }
-//        });
     }
 
 

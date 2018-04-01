@@ -6,16 +6,12 @@ import java.net.SocketTimeoutException;
 import java.util.List;
 import java.util.Map;
 
+import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
+
 // import edu.gatech.edutech.utilities.ExternalWebService;
 
 public class Service {
     private static Service singleton = new Service();
-
-    private String userName;
-    private String userFullName;
-    private JSONObject cityMetadata;
-    private JSONObject gameMetadata;
-
 
     /**
      * Use this to get a singleton instance of Service
@@ -27,6 +23,8 @@ public class Service {
 
     public void clearCache() {
         resetUser();
+        thiefAttributes.resetAttributes();
+        guessedAttributes.resetAttributes();
     }
 
 
@@ -62,4 +60,39 @@ public class Service {
         this.userFullName = userFullName;
     }
 
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getUserFullName() {
+        return userFullName;
+    }
+
+    public JSONObject getCityMetadata() {
+        return cityMetadata;
+    }
+
+    public JSONObject getGameMetadata() {
+        return gameMetadata;
+    }
+
+
+    public ThiefAttributes getThiefAttributes() {
+        return thiefAttributes;
+    }
+
+    public ThiefAttributes getGuessedAttributes() {
+        return guessedAttributes;
+    }
+
+
+    private String userName;
+    private String userFullName;
+    private JSONObject cityMetadata;
+    private JSONObject gameMetadata;
+    private String personAction;
+    private String placeAction;
+    private ThiefAttributes thiefAttributes = new ThiefAttributes();
+    private ThiefAttributes guessedAttributes = new ThiefAttributes();
 }
