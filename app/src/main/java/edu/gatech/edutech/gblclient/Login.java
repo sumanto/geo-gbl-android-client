@@ -95,18 +95,12 @@ public class Login extends AppCompatActivity {
 
 
                 // Choose a initial city, as well as next city
-                JSONObject cityMetadata = service.getCityMetadata();
+                Utility.setupNewCityActions(service, "Los Angeles");
 
+                // Setup stolen information
                 try {
-                    service.setPresentCity(cityMetadata.getJSONObject("cities").getJSONObject("Los Angeles"));
                     service.setStolenCityName(service.getPresentCity().getString("name"));
-                    service.setPresentCityName(service.getPresentCity().getString("name"));
                     service.setStolenArtifact(Utility.getRandomData(Utility.convertJSONArrayToList(service.getPresentCity().getJSONArray("steal"))));
-
-                    String nextCityName = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
-                    JSONObject nextCity = cityMetadata.getJSONObject("cities").getJSONObject(nextCityName);
-                    service.setNextCity(nextCity);
-                    service.setNextCityName(service.getNextCity().getString("name"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

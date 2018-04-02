@@ -22,18 +22,32 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textLogout = findViewById(R.id.textLogout);
         textHistory = findViewById(R.id.textHistory);
 
+        textPersonAction = findViewById(R.id.textPersonAction);
+        textPlaceAction = findViewById(R.id.textPlaceAction);
+        textTravelAction = findViewById(R.id.textTravelAction);
+        textThiefAttributesAction = findViewById(R.id.textThiefAttributesAction);
+        textWarrantAction = findViewById(R.id.textWarrantAction);
+        textLogout = findViewById(R.id.textLogout);
+
+
+        // Set up scrolling
         textHistory.setMovementMethod(new ScrollingMovementMethod());
 
+        textPersonAction.setText("> " + service.getPersonAction());
+        textPlaceAction.setText("> " + service.getPlaceAction());
 
+
+        // TODO: differentiate between coming back and initial page
         // Welcome user
         textHistory.setText("");
         textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
         textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
         textHistory.append("The thief has stolen " + service.getStolenArtifact() + " from the city !!\n");
 
+
+        // Logout action
         textLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

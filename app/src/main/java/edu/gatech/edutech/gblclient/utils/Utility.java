@@ -75,4 +75,34 @@ public class Utility extends Application {
         }
         return listData;
     }
+
+
+    public static void setupNewCityActions(Service service, String presentCity) {
+        JSONObject cityMetadata = service.getCityMetadata();
+        JSONObject gameMetadata = service.getGameMetadata();
+
+        try {
+            // City setup
+            service.setPresentCity(cityMetadata.getJSONObject("cities").getJSONObject(presentCity));
+            service.setPresentCityName(service.getPresentCity().getString("name"));
+
+            String nextCityName = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
+            JSONObject nextCity = cityMetadata.getJSONObject("cities").getJSONObject(nextCityName);
+            service.setNextCity(nextCity);
+            service.setNextCityName(service.getNextCity().getString("name"));
+
+            // Actions setup
+            String person = getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("person-places").names()));
+            service.setPerson(person);
+            String personAction = getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray("person-actions"))) + " " + person;
+            service.setPersonAction(personAction);
+
+            String place = getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("person-places").getJSONArray(person)));
+            service.setPlace(place);
+            String placeAction = getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray("place-actions"))) + " " + place;
+            service.setPlaceAction(placeAction);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

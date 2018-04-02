@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="left"
-        android:text="@string/label_logout"
+        android:text="@string/main_logout"
         android:clickable="true"
         android:focusable="true"
         android:textColor="@android:color/black"

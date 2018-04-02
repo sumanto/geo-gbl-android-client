@@ -135,12 +135,46 @@ public class Service {
     }
 
 
+    public String getPerson() {
+        return person;
+    }
+
+    public void setPerson(String person) {
+        this.person = person;
+    }
+
+    public String getPersonAction() {
+        return personAction;
+    }
+
+    public void setPersonAction(String personAction) {
+        this.personAction = personAction;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public String getPlaceAction() {
+        return placeAction;
+    }
+
+    public void setPlaceAction(String placeAction) {
+        this.placeAction = placeAction;
+    }
+
 
     private String userName;
     private String userFullName;
     private JSONObject cityMetadata;
     private JSONObject gameMetadata;
+    private String person;
     private String personAction;
+    private String place;
     private String placeAction;
     private JSONObject presentCity;
     private String presentCityName;
