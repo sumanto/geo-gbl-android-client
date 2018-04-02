@@ -56,8 +56,26 @@ public class Main extends AppCompatActivity {
             public void onClick(View v) {
                 // setup the alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
-                builder.setTitle("My title");
-                builder.setMessage("This is my message.");
+                builder.setTitle(Character.toUpperCase(service.getPerson().charAt(0)) + service.getPerson().substring(1) + ":");
+                builder.setMessage(service.getPersonText());
+
+                // add a button
+                builder.setPositiveButton("OK", null);
+
+                // create and show the alert dialog
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
+
+
+        textPlaceAction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // setup the alert builder
+                AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
+                builder.setTitle(service.getPlace());
+                builder.setMessage(service.getPlaceAttributes().getItem() + ": " + service.getPlaceAttributes().getDescription());
 
                 // add a button
                 builder.setPositiveButton("OK", null);
