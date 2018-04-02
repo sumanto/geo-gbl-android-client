@@ -2,6 +2,7 @@ package edu.gatech.edutech.gblclient;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v7.appcompat.*;
 import android.text.method.ScrollingMovementMethod;
@@ -16,11 +17,14 @@ public class Main extends AppCompatActivity {
 
     Service service = Service.getInstance();
     TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textLogout;
+    Main thisObject;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        thisObject = this;
 
         textHistory = findViewById(R.id.textHistory);
 
@@ -45,6 +49,24 @@ public class Main extends AppCompatActivity {
         textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
         textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
         textHistory.append("The thief has stolen " + service.getStolenArtifact() + " from the city !!\n");
+
+
+        textPersonAction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // setup the alert builder
+                AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
+                builder.setTitle("My title");
+                builder.setMessage("This is my message.");
+
+                // add a button
+                builder.setPositiveButton("OK", null);
+
+                // create and show the alert dialog
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
 
 
         // Logout action

@@ -3,9 +3,11 @@ package edu.gatech.edutech.gblclient.utils;
 import org.json.JSONObject;
 
 import java.net.SocketTimeoutException;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 
 // import edu.gatech.edutech.utilities.ExternalWebService;
@@ -151,6 +153,15 @@ public class Service {
         this.personAction = personAction;
     }
 
+
+    public String getPersonText() {
+        return personText;
+    }
+
+    public void setPersonText(String personText) {
+        this.personText = personText;
+    }
+
     public String getPlace() {
         return place;
     }
@@ -168,20 +179,57 @@ public class Service {
     }
 
 
+    public String getThiefSalutation() {
+        return thiefSalutation;
+    }
+
+    public void setThiefSalutation(String thiefSalutation) {
+        this.thiefSalutation = thiefSalutation;
+    }
+
+    public PlaceAttributes getPlaceAttributes() {
+        return placeAttributes;
+    }
+
+    public void setPlaceAttributes(PlaceAttributes placeAttributes) {
+        this.placeAttributes = placeAttributes;
+    }
+
+    public Date getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(Date dateTime) {
+        this.dateTime = dateTime;
+    }
+
+
+    private Date dateTime;
+
     private String userName;
     private String userFullName;
+
     private JSONObject cityMetadata;
     private JSONObject gameMetadata;
+
     private String person;
     private String personAction;
+    private String personText;
+
     private String place;
     private String placeAction;
+    private PlaceAttributes placeAttributes;
+
     private JSONObject presentCity;
     private String presentCityName;
+
     private JSONObject nextCity;
     private String nextCityName;
+
     private String stolenCityName;
     private String stolenArtifact;
+
     private ThiefAttributes thiefAttributes = new ThiefAttributes();
     private ThiefAttributes guessedAttributes = new ThiefAttributes();
+    private String thiefSalutation;
 }

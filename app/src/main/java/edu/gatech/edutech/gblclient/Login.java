@@ -13,6 +13,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
@@ -69,6 +70,7 @@ public class Login extends AppCompatActivity {
                 }
 
                 // Fill up cache
+                service.setDateTime(new Date());
                 service.setUser(userName, user);
 
                 // Set/reset thief attributes
@@ -80,6 +82,12 @@ public class Login extends AppCompatActivity {
                     sexList.add("male");
                     sexList.add("female");
                     thiefAttributes.setSex(Utility.getRandomData(sexList));
+
+                    if (thiefAttributes.getSex().equals("male")) {
+                        service.setThiefSalutation("He");
+                    } else {
+                        service.setThiefSalutation("She");
+                    }
 
                     thiefAttributes.setEyes(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("eyes").names())));
                     thiefAttributes.setHair(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hair").names())));
@@ -95,7 +103,7 @@ public class Login extends AppCompatActivity {
 
 
                 // Choose a initial city, as well as next city
-                Utility.setupNewCityActions(service, "Los Angeles");
+                Utility.setupNewCityActions(service, "Los Angeles", true);
 
                 // Setup stolen information
                 try {

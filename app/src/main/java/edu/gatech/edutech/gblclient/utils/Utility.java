@@ -13,12 +13,15 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
+import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
+import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 
 
 public class Utility extends Application {
@@ -77,7 +80,7 @@ public class Utility extends Application {
     }
 
 
-    public static void setupNewCityActions(Service service, String presentCity) {
+    public static void setupNewCityActions(Service service, String presentCity, boolean correctCity) {
         JSONObject cityMetadata = service.getCityMetadata();
         JSONObject gameMetadata = service.getGameMetadata();
 
@@ -91,6 +94,7 @@ public class Utility extends Application {
             service.setNextCity(nextCity);
             service.setNextCityName(service.getNextCity().getString("name"));
 
+
             // Actions setup
             String person = getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("person-places").names()));
             service.setPerson(person);
@@ -101,8 +105,70 @@ public class Utility extends Application {
             service.setPlace(place);
             String placeAction = getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray("place-actions"))) + " " + place;
             service.setPlaceAction(placeAction);
+
+
+            // Person text
+            String personText;
+            if (correctCity) {
+                String thiefSalutation = service.getThiefSalutation();
+
+                String landmark = getRandomData(convertJSONArrayToList(service.getNextCity().getJSONObject("landmarks").names()));
+                String landmarkText = getRandomData(convertJSONArrayToList(service.getNextCity().getJSONObject("landmarks").getJSONObject(landmark).getJSONArray("tidbits")));
+
+                personText = thiefSalutation + " talked about " + landmark + " - " + landmarkText;
+
+                String thiefAttr = getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").names()));
+
+                ThiefAttributes thiefAttributes = service.getThiefAttributes();
+                String thiefAttrHelp = "";
+                if (thiefAttr.equals("hair")) {
+                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray(thiefAttr + "-sentences-similars"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject(thiefAttr).getJSONObject(thiefAttributes.getEyes()).getJSONArray("similars")));
+                } else if (thiefAttr.equals("eyes")) {
+                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray(thiefAttr + "-sentences-similars"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject(thiefAttr).getJSONObject(thiefAttributes.getEyes()).getJSONArray("similars")));
+                } else if (thiefAttr.equals("hobby")) {
+                    thiefAttrHelp = thiefSalutation + " talked about " + thiefAttributes.getHobby();
+                } else if (thiefAttr.equals("vehicle")) {
+                    thiefAttrHelp = thiefSalutation + " wanted to ride a " + thiefAttributes.getVehicle();
+                } else if (thiefAttr .equals("feature")) {
+                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("feature").getJSONArray(thiefAttributes.getFeature())));
+                } else if (thiefAttr.equals("food")) {
+                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray("food-sentences"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("food").getJSONArray(thiefAttributes.getFood())));
+                }
+
+                personText += " " + thiefAttrHelp;
+            } else {
+                personText = getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("wrong-person").getJSONArray("person")));
+            }
+
+            service.setPersonText(personText);
+
+
+            // Place text
+            PlaceAttributes placeAttributes = new PlaceAttributes();
+            placeAttributes.setItem(getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("evidence-items").names())));
+            placeAttributes.setCity(service.getPresentCityName());
+            placeAttributes.setDay(DAY_FORMAT.format(service.getDateTime()));
+            placeAttributes.setTime(TIME_FORMAT.format(service.getDateTime()));
+
+            if (correctCity) {
+                String landmark = getRandomData(convertJSONArrayToList(service.getNextCity().getJSONObject("landmarks").names()));
+                String landmarkText = getRandomData(convertJSONArrayToList(service.getNextCity().getJSONObject("landmarks").getJSONObject(landmark).getJSONArray("tidbits")));
+                placeAttributes.setDescription("The " + placeAttributes.getItem() + " contained an advertisement for " + landmark + " - " + landmarkText);
+            } else {
+                JSONArray wrongItems = gameMetadata.getJSONObject("evidence-items").getJSONObject(placeAttributes.getItem()).getJSONArray("wrong");
+                if (wrongItems.length() > 0) {
+                    placeAttributes.setDescription(getRandomData(convertJSONArrayToList(wrongItems)));
+                } else {
+                    placeAttributes.setDescription("");
+                }
+            }
+
+            service.setPlaceAttributes(placeAttributes);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
+    public static final SimpleDateFormat DAY_FORMAT = new SimpleDateFormat ("dd.MM.yyyy");
+    public static final SimpleDateFormat TIME_FORMAT = new SimpleDateFormat ("hh:mm");
 }
