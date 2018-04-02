@@ -94,6 +94,46 @@ public class Main extends AppCompatActivity {
         textTravelAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
+                let choices = [];
+                let rightChoice = getRandomInt(1, 4);
+                d('Random int: ' + rightChoice);
+
+                let alreadyAdded = [];
+                let choiceFlights = {};
+                choiceFlights[nextCorrectCity] = Math.floor(Math.random() * 1000) + 1000;
+
+                alreadyAdded.push(nextCorrectCity);
+
+                let i = 1;
+                while (choices.length < 3) {
+                    if (rightChoice === i) {
+                        choices.push({
+                                name: nextCorrectCity + '; flight #: ' + choiceFlights[nextCorrectCity],
+                                value: nextCorrectCity
+                    });
+                        i++;
+                        continue;
+                    }
+
+                    let choice = getRandomData(Object.keys(cityMetadata.cities));
+                    let cityToAdd = cityMetadata.cities[choice].name;
+                    if (alreadyAdded.indexOf(cityToAdd) >= 0) {
+                        continue;
+                    }
+
+                    alreadyAdded.push(cityToAdd);
+                    choiceFlights[cityToAdd] = Math.floor(Math.random() * 1000) + 1000;
+                    choices.push({
+                            name: cityToAdd + '; flight #: ' + choiceFlights[cityToAdd],
+                            value: cityToAdd
+                });
+
+                    i++;
+                }
+                d(choices);
+                */
+
                 CharSequence colors[] = new CharSequence[] {"red", "green", "blue", "black"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
