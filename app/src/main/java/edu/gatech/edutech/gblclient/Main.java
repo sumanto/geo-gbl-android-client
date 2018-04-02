@@ -26,10 +26,13 @@ public class Main extends AppCompatActivity {
         textHistory = findViewById(R.id.textHistory);
 
         textHistory.setMovementMethod(new ScrollingMovementMethod());
-        textHistory.setText("Hello\n");
-        for (int i = 0; i < 100; i++) {
-            textHistory.append("And welcome\n");
-        }
+
+
+        // Welcome user
+        textHistory.setText("");
+        textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
+        textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
+        textHistory.append("The thief has stolen " + service.getStolenArtifact() + " from the city !!\n");
 
         textLogout.setOnClickListener(new View.OnClickListener() {
             @Override

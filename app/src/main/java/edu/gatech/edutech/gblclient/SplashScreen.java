@@ -60,7 +60,7 @@ public class SplashScreen extends AppCompatActivity {
         service.setGameMetadata(gameMetadata);
 
         JSONObject cityMetadata = Utility.getJSONObjectFromAssetFile(am, "us_cities.json");;
-        service.setCityMetadata(gameMetadata);
+        service.setCityMetadata(cityMetadata);
 
         try {
             textTitle.setText(cityMetadata.getString("title"));

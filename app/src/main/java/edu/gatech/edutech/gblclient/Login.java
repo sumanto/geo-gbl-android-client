@@ -71,7 +71,7 @@ public class Login extends AppCompatActivity {
                 // Fill up cache
                 service.setUser(userName, user);
 
-                // Set thief attributes
+                // Set/reset thief attributes
                 JSONObject gameMetadata = service.getGameMetadata();
 
                 ThiefAttributes thiefAttributes = service.getThiefAttributes();
@@ -89,6 +89,24 @@ public class Login extends AppCompatActivity {
                     thiefAttributes.setVehicle(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("vehicle").names())));
 
                     Log.d(msg, "Thief attributes: " + thiefAttributes.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+                // Choose a initial city, as well as next city
+                JSONObject cityMetadata = service.getCityMetadata();
+
+                try {
+                    service.setPresentCity(cityMetadata.getJSONObject("cities").getJSONObject("Los Angeles"));
+                    service.setStolenCityName(service.getPresentCity().getString("name"));
+                    service.setPresentCityName(service.getPresentCity().getString("name"));
+                    service.setStolenArtifact(Utility.getRandomData(Utility.convertJSONArrayToList(service.getPresentCity().getJSONArray("steal"))));
+
+                    String nextCityName = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
+                    JSONObject nextCity = cityMetadata.getJSONObject("cities").getJSONObject(nextCityName);
+                    service.setNextCity(nextCity);
+                    service.setNextCityName(service.getNextCity().getString("name"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

@@ -86,6 +86,55 @@ public class Service {
         return guessedAttributes;
     }
 
+    public JSONObject getPresentCity() {
+        return presentCity;
+    }
+
+    public void setPresentCity(JSONObject presentCity) {
+        this.presentCity = presentCity;
+    }
+
+    public JSONObject getNextCity() {
+        return nextCity;
+    }
+
+    public void setNextCity(JSONObject nextCity) {
+        this.nextCity = nextCity;
+    }
+
+    public String getPresentCityName() {
+        return presentCityName;
+    }
+
+    public void setPresentCityName(String presentCityName) {
+        this.presentCityName = presentCityName;
+    }
+
+    public String getNextCityName() {
+        return nextCityName;
+    }
+
+    public void setNextCityName(String nextCityName) {
+        this.nextCityName = nextCityName;
+    }
+
+    public String getStolenCityName() {
+        return stolenCityName;
+    }
+
+    public void setStolenCityName(String stolenCityName) {
+        this.stolenCityName = stolenCityName;
+    }
+
+    public String getStolenArtifact() {
+        return stolenArtifact;
+    }
+
+    public void setStolenArtifact(String stolenArtifact) {
+        this.stolenArtifact = stolenArtifact;
+    }
+
+
 
     private String userName;
     private String userFullName;
@@ -93,6 +142,12 @@ public class Service {
     private JSONObject gameMetadata;
     private String personAction;
     private String placeAction;
+    private JSONObject presentCity;
+    private String presentCityName;
+    private JSONObject nextCity;
+    private String nextCityName;
+    private String stolenCityName;
+    private String stolenArtifact;
     private ThiefAttributes thiefAttributes = new ThiefAttributes();
     private ThiefAttributes guessedAttributes = new ThiefAttributes();
 }
