@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 // import android.support.v7.appcompat.*;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,10 +15,14 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 
+import java.util.List;
+
+import edu.gatech.edutech.gblclient.objects.CityObject;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
 public class Main extends AppCompatActivity {
+    String msg = "** Main: ";
 
     Service service = Service.getInstance();
     TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textLogout;
@@ -27,6 +32,7 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d(msg, "The onCreate() event");
 
         thisObject = this;
 
@@ -43,16 +49,22 @@ public class Main extends AppCompatActivity {
         // Set up scrolling
         textHistory.setMovementMethod(new ScrollingMovementMethod());
 
-        textPersonAction.setText("> " + service.getPersonAction());
-        textPlaceAction.setText("> " + service.getPlaceAction());
-
 
         // TODO: differentiate between coming back and initial page
-        // Welcome user
         textHistory.setText("");
+
+        // Welcome user
         textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
-        textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
-        textHistory.append("The thief has stolen " + service.getStolenArtifact() + " from the city !!\n");
+        textHistory.append(delimiters());
+        textHistory.append("\n");
+
+        setUpNewCity();
+
+        // What the thief stole
+        textHistory.append("The thief has stolen " + service.getStolenArtifact() + " !!\n");
+        textHistory.append(delimiters());
+        textHistory.append("\n");
+
 
 
         textPersonAction.setOnClickListener(new View.OnClickListener() {
@@ -94,56 +106,24 @@ public class Main extends AppCompatActivity {
         textTravelAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
-                let choices = [];
-                let rightChoice = getRandomInt(1, 4);
-                d('Random int: ' + rightChoice);
 
-                let alreadyAdded = [];
-                let choiceFlights = {};
-                choiceFlights[nextCorrectCity] = Math.floor(Math.random() * 1000) + 1000;
-
-                alreadyAdded.push(nextCorrectCity);
-
-                let i = 1;
-                while (choices.length < 3) {
-                    if (rightChoice === i) {
-                        choices.push({
-                                name: nextCorrectCity + '; flight #: ' + choiceFlights[nextCorrectCity],
-                                value: nextCorrectCity
-                    });
-                        i++;
-                        continue;
-                    }
-
-                    let choice = getRandomData(Object.keys(cityMetadata.cities));
-                    let cityToAdd = cityMetadata.cities[choice].name;
-                    if (alreadyAdded.indexOf(cityToAdd) >= 0) {
-                        continue;
-                    }
-
-                    alreadyAdded.push(cityToAdd);
-                    choiceFlights[cityToAdd] = Math.floor(Math.random() * 1000) + 1000;
-                    choices.push({
-                            name: cityToAdd + '; flight #: ' + choiceFlights[cityToAdd],
-                            value: cityToAdd
-                });
-
-                    i++;
-                }
-                d(choices);
-                */
-
-                CharSequence colors[] = new CharSequence[] {"red", "green", "blue", "black"};
+                List<String> flightList = service.getNextCities();
+                CharSequence flights[] = flightList.toArray(new CharSequence[flightList.size()]); // new CharSequence[] {"red", "green", "blue", "black"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
                 builder.setTitle("Where do you want to travel to?");
-                builder.setItems(colors, new DialogInterface.OnClickListener() {
+                builder.setItems(flights, new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        String flightNumber = "";
-                        String cityChoice = "";
+                        Log.d(msg, "clicked: " + which);
+                        CityObject nextCityObject = service.getNextCitiesObjects().get(which);
+                        String flightNumber = nextCityObject.getFlightNumber();
+                        String cityChoice = nextCityObject.getCityName();
+
+                        // Setup data
+                        Utility.setupNewCityActions(service, cityChoice, service.getRightChoice() == which);
+                        setUpNewCity();
 
                         // setup the alert builder
                         AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
@@ -180,6 +160,7 @@ public class Main extends AppCompatActivity {
             }
         });
 
+
 //        createscramble.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -209,5 +190,23 @@ public class Main extends AppCompatActivity {
 //            }
 //        });
 
+    }
+
+
+    public void setUpNewCity() {
+        textPersonAction.setText("> " + service.getPersonAction());
+        textPlaceAction.setText("> " + service.getPlaceAction());
+
+
+        // Welcome user
+        textHistory.append(delimiters());
+        textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
+        textHistory.append(delimiters());
+        textHistory.append("\n");
+    }
+
+
+    public String delimiters() {
+        return "**************\n";
     }
 }

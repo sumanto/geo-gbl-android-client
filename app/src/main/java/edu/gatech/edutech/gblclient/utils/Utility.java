@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
+import edu.gatech.edutech.gblclient.objects.CityObject;
 import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 
@@ -60,7 +61,7 @@ public class Utility extends Application {
             return null;
         }
 
-        int randomNum = ThreadLocalRandom.current().nextInt(0, data.size() - 1);
+        int randomNum = ThreadLocalRandom.current().nextInt(0, data.size());
         return data.get(randomNum);
     }
 
@@ -122,7 +123,7 @@ public class Utility extends Application {
                 ThiefAttributes thiefAttributes = service.getThiefAttributes();
                 String thiefAttrHelp = "";
                 if (thiefAttr.equals("hair")) {
-                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray(thiefAttr + "-sentences-similars"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject(thiefAttr).getJSONObject(thiefAttributes.getEyes()).getJSONArray("similars")));
+                    thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray(thiefAttr + "-sentences-similars"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject(thiefAttr).getJSONObject(thiefAttributes.getHair()).getJSONArray("similars")));
                 } else if (thiefAttr.equals("eyes")) {
                     thiefAttrHelp = thiefSalutation + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONArray(thiefAttr + "-sentences-similars"))) + " " + getRandomData(convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject(thiefAttr).getJSONObject(thiefAttributes.getEyes()).getJSONArray("similars")));
                 } else if (thiefAttr.equals("hobby")) {
@@ -164,6 +165,50 @@ public class Utility extends Application {
             }
 
             service.setPlaceAttributes(placeAttributes);
+
+
+            // Setup information about the next place
+            List<String> choices = new ArrayList<>();
+            List<CityObject> cityChoiceObjects = new ArrayList<>();
+            int rightChoice = ThreadLocalRandom.current().nextInt(1, 4);
+            service.setRightChoice(rightChoice);
+
+            List<String> alreadyAdded = new ArrayList<>();
+
+            // Special case for present/next correct city
+            alreadyAdded.add(nextCityName);
+            alreadyAdded.add(presentCity);
+
+            int i = 1;
+            String flightNumber;
+            while (choices.size() < 3) {
+                if (rightChoice == i) {
+                    flightNumber = Integer.toString(ThreadLocalRandom.current().nextInt(1000, 2000));
+                    choices.add(nextCityName + " (flight #: " + flightNumber + ")");
+                    CityObject cityObject = new CityObject(nextCityName, flightNumber);
+                    cityChoiceObjects.add(cityObject);
+                    i++;
+
+                    continue;
+                }
+
+                String choice = getRandomData(convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
+                String cityToAdd = cityMetadata.getJSONObject("cities").getJSONObject(choice).getString("name");
+                if (alreadyAdded.indexOf(cityToAdd) >= 0) {
+                    continue;
+                }
+
+                alreadyAdded.add(cityToAdd);
+                flightNumber = Integer.toString(ThreadLocalRandom.current().nextInt(1000, 2000));
+                choices.add(cityToAdd + " (flight #: " + flightNumber + ")");
+                CityObject cityObject = new CityObject(cityToAdd, flightNumber);
+                cityChoiceObjects.add(cityObject);
+
+                i++;
+            }
+
+            service.setNextCities(choices);
+            service.setNextCitiesObjects(cityChoiceObjects);
         } catch (Exception e) {
             e.printStackTrace();
         }

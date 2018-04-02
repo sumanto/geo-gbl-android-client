@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import edu.gatech.edutech.gblclient.objects.CityObject;
 import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 
@@ -203,6 +204,31 @@ public class Service {
         this.dateTime = dateTime;
     }
 
+    public int getRightChoice() {
+        return rightChoice;
+    }
+
+    public void setRightChoice(int rightChoice) {
+        this.rightChoice = rightChoice;
+    }
+
+    public List<String> getNextCities() {
+        return nextCities;
+    }
+
+    public void setNextCities(List<String> nextCities) {
+        this.nextCities = nextCities;
+    }
+
+    public List<CityObject> getNextCitiesObjects() {
+        return nextCitiesObjects;
+    }
+
+    public void setNextCitiesObjects(List<CityObject> nextCitiesObjects) {
+        this.nextCitiesObjects = nextCitiesObjects;
+    }
+
+
 
     private Date dateTime;
 
@@ -232,4 +258,8 @@ public class Service {
     private ThiefAttributes thiefAttributes = new ThiefAttributes();
     private ThiefAttributes guessedAttributes = new ThiefAttributes();
     private String thiefSalutation;
+
+    private int rightChoice;
+    private List<String> nextCities;
+    private List<CityObject> nextCitiesObjects;
 }
