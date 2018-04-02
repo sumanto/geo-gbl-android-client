@@ -18,6 +18,7 @@ import org.json.JSONException;
 import java.util.List;
 
 import edu.gatech.edutech.gblclient.objects.CityObject;
+import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
@@ -90,8 +91,20 @@ public class Main extends AppCompatActivity {
             public void onClick(View v) {
                 // setup the alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
-                builder.setTitle(service.getPlace());
-                builder.setMessage(service.getPlaceAttributes().getItem() + ": " + service.getPlaceAttributes().getDescription());
+                builder.setTitle("***** Evidence report");
+
+                PlaceAttributes placeAttributes = service.getPlaceAttributes();
+                StringBuilder str = new StringBuilder();
+                str.append("> Date: ").append(placeAttributes.getDay()).append("\n");
+                str.append("> Time: ").append(placeAttributes.getTime()).append("\n");
+                str.append("> Location: ").append(placeAttributes.getCity()).append("\n");
+                str.append("> Item: ").append(placeAttributes.getItem()).append("\n");
+                str.append("> Description: ").append(placeAttributes.getDescription());
+
+                builder.setMessage(str.toString());
+
+                textHistory.append(">>> Evidence report: <<<\n");
+                textHistory.append(str.toString() + "\n" + delimiters() + "\n");
 
                 // add a button
                 builder.setPositiveButton("OK", null);
