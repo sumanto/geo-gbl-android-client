@@ -29,7 +29,6 @@ public class ThiefAttributesActivity extends AppCompatActivity {
     String msg = "** ThiefAttributesActivity: ";
 
     Service service = Service.getInstance();
-    ThiefAttributesActivity thisObject;
 
     Spinner spinnerSex, spinnerEye, spinnerHair, spinnerHobby, spinnerFood, spinnerFeature, spinnerVehicle;
     Button buttonSave;
@@ -50,20 +49,50 @@ public class ThiefAttributesActivity extends AppCompatActivity {
 
         buttonSave = findViewById(R.id.buttonSave);
 
-        thisObject = this;
-
-        fillUpSpinner(spinnerSex, service.getSex());
-        fillUpSpinner(spinnerEye, service.getEyes());
-        fillUpSpinner(spinnerHair, service.getHair());
-        fillUpSpinner(spinnerHobby, service.getHobby());
-        fillUpSpinner(spinnerFood, service.getFood());
-        fillUpSpinner(spinnerFeature, service.getFeature());
-        fillUpSpinner(spinnerVehicle, service.getVehicle());
+        // Fill up spinners, set defaults
+        fillUpSpinner(spinnerSex, service.getSex(), service.getGuessedAttributes().getSex());
+        fillUpSpinner(spinnerEye, service.getEyes(), service.getGuessedAttributes().getEyes());
+        fillUpSpinner(spinnerHair, service.getHair(), service.getGuessedAttributes().getHair());
+        fillUpSpinner(spinnerHobby, service.getHobby(), service.getGuessedAttributes().getHobby());
+        fillUpSpinner(spinnerFood, service.getFood(), service.getGuessedAttributes().getFood());
+        fillUpSpinner(spinnerFeature, service.getFeature(), service.getGuessedAttributes().getFeature());
+        fillUpSpinner(spinnerVehicle, service.getVehicle(), service.getGuessedAttributes().getVehicle());
 
         // Save button
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Save changes
+                if (spinnerSex.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setSex((String) spinnerSex.getSelectedItem());
+                }
+
+                if (spinnerEye.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setEyes((String) spinnerEye.getSelectedItem());
+                }
+
+                if (spinnerHair.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setHair((String) spinnerHair.getSelectedItem());
+                }
+
+                if (spinnerHobby.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setHobby((String) spinnerHobby.getSelectedItem());
+                }
+
+                if (spinnerFood.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setFood((String) spinnerFood.getSelectedItem());
+                }
+
+                if (spinnerFeature.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setFeature((String) spinnerFeature.getSelectedItem());
+                }
+
+                if (spinnerVehicle.getSelectedItem() != null) {
+                    service.getGuessedAttributes().setVehicle((String) spinnerVehicle.getSelectedItem());
+                }
+
+
+                // Go back to Main screen
                 Intent intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
                 finish();
@@ -72,7 +101,7 @@ public class ThiefAttributesActivity extends AppCompatActivity {
     }
 
 
-    private void fillUpSpinner(Spinner spinner, List<String> list) {
+    private void fillUpSpinner(Spinner spinner, List<String> list, String savedGuess) {
         List<String> spinnerArray =  new ArrayList<>();
         spinnerArray.add("");
         spinnerArray.addAll(list);
@@ -82,6 +111,16 @@ public class ThiefAttributesActivity extends AppCompatActivity {
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-        spinner.setSelection(1);
+
+        if (savedGuess == null) {
+            return;
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals(savedGuess)) {
+                spinner.setSelection(i + 1);
+                return;
+            }
+        }
     }
 }
