@@ -186,10 +186,33 @@ public class Main extends AppCompatActivity {
         textWarrantAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ThiefAttributes guesses = service.getGuessedAttributes();
+                ThiefAttributes thiefAttributes = service.getThiefAttributes();
+
+                String alertMessage;
+                if (guesses.getSex() == null || guesses.getEyes() == null || guesses.getHobby() == null ||
+                        guesses.getFeature() == null || guesses.getHair() == null ||
+                        guesses.getFood() == null || guesses.getVehicle() == null) {
+                    alertMessage = "You have to set all thief attributes before you can issue a warrant";
+                } else {
+                    if (thiefAttributes.getSex().equals(guesses.getSex()) &&
+                            thiefAttributes.getEyes().equals(guesses.getEyes()) &&
+                            thiefAttributes.getHobby().equals(guesses.getHobby()) &&
+                            thiefAttributes.getFeature().equals(guesses.getFeature()) &&
+                            thiefAttributes.getHair().equals(guesses.getHair()) &&
+                            thiefAttributes.getFood().equals(guesses.getFood()) &&
+                            thiefAttributes.getVehicle().equals(guesses.getVehicle())) {
+                        alertMessage = "Congrats you caught the thief :)";
+                    } else {
+                        // TODO: make it 3 chances
+                        alertMessage = "Your warrant was incorrect. You have 2 more chances. Use them wisely.";
+                    }
+                }
+
                 // setup the alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
-                builder.setTitle("***** Warrant");
-                builder.setMessage("Warrant text");
+                builder.setTitle("*** Warrant ***");
+                builder.setMessage(alertMessage);
 
                 // add a button
                 builder.setPositiveButton("OK", null);
