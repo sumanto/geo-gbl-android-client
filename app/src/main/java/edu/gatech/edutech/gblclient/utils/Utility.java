@@ -175,7 +175,7 @@ public class Utility extends Application {
 
             List<String> alreadyAdded = new ArrayList<>();
 
-            // Special case for present/next correct city
+            // Special case for present/next correct citu
             alreadyAdded.add(nextCityName);
             alreadyAdded.add(presentCity);
 

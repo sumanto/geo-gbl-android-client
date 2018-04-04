@@ -81,6 +81,7 @@ public class Login extends AppCompatActivity {
                     List<String> sexList = new ArrayList<>();
                     sexList.add("male");
                     sexList.add("female");
+                    service.setSex(sexList);
                     thiefAttributes.setSex(Utility.getRandomData(sexList));
 
                     if (thiefAttributes.getSex().equals("male")) {
@@ -89,12 +90,29 @@ public class Login extends AppCompatActivity {
                         service.setThiefSalutation("She");
                     }
 
-                    thiefAttributes.setEyes(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("eyes").names())));
-                    thiefAttributes.setHair(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hair").names())));
-                    thiefAttributes.setHobby(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hobby").names())));
-                    thiefAttributes.setFood(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("food").names())));
-                    thiefAttributes.setFeature(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("feature").names())));
-                    thiefAttributes.setVehicle(Utility.getRandomData(Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("vehicle").names())));
+                    List<String> eyesList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("eyes").names());
+                    service.setEyes(eyesList);
+                    thiefAttributes.setEyes(Utility.getRandomData(eyesList));
+
+                    List<String> hairList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hair").names());
+                    service.setHair(hairList);
+                    thiefAttributes.setHair(Utility.getRandomData(hairList));
+
+                    List<String> hobbyList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hobby").names());
+                    service.setHobby(hobbyList);
+                    thiefAttributes.setHobby(Utility.getRandomData(hobbyList));
+
+                    List<String> foodList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("food").names());
+                    service.setFood(foodList);
+                    thiefAttributes.setFood(Utility.getRandomData(foodList));
+
+                    List<String> featureList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("feature").names());
+                    service.setFeature(featureList);
+                    thiefAttributes.setFeature(Utility.getRandomData(featureList));
+
+                    List<String> vehicleList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("vehicle").names());
+                    service.setVehicle(vehicleList);
+                    thiefAttributes.setVehicle(Utility.getRandomData(vehicleList));
 
                     Log.d(msg, "Thief attributes: " + thiefAttributes.toString());
                 } catch (JSONException e) {

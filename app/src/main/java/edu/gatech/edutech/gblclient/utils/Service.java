@@ -228,6 +228,61 @@ public class Service {
         this.nextCitiesObjects = nextCitiesObjects;
     }
 
+    public List<String> getEyes() {
+        return eyes;
+    }
+
+    public void setEyes(List<String> eyes) {
+        this.eyes = eyes;
+    }
+
+    public List<String> getHair() {
+        return hair;
+    }
+
+    public void setHair(List<String> hair) {
+        this.hair = hair;
+    }
+
+    public List<String> getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(List<String> hobby) {
+        this.hobby = hobby;
+    }
+
+    public List<String> getFood() {
+        return food;
+    }
+
+    public void setFood(List<String> food) {
+        this.food = food;
+    }
+
+    public List<String> getFeature() {
+        return feature;
+    }
+
+    public void setFeature(List<String> feature) {
+        this.feature = feature;
+    }
+
+    public List<String> getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(List<String> vehicle) {
+        this.vehicle = vehicle;
+    }
+
+    public List<String> getSex() {
+        return sex;
+    }
+
+    public void setSex(List<String> sex) {
+        this.sex = sex;
+    }
 
 
     private Date dateTime;
@@ -262,4 +317,12 @@ public class Service {
     private int rightChoice;
     private List<String> nextCities;
     private List<CityObject> nextCitiesObjects;
+
+    private List<String> eyes;
+    private List<String> hair;
+    private List<String> hobby;
+    private List<String> food;
+    private List<String> feature;
+    private List<String> vehicle;
+    private List<String> sex;
 }
