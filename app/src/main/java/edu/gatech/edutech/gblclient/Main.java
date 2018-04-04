@@ -52,21 +52,26 @@ public class Main extends AppCompatActivity {
         textHistory.setMovementMethod(new ScrollingMovementMethod());
 
 
-        // TODO: differentiate between coming back and initial page
-        textHistory.setText("");
+        // Differentiate between coming back and initial page
+        if (service.isNewLogin()) {
+            textHistory.setText("");
 
-        // Welcome user
-        textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
-        textHistory.append(delimiters());
-        textHistory.append("\n");
+            // Welcome user
+            textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
+            textHistory.append(delimiters());
+            textHistory.append("\n");
 
-        setUpNewCity();
+            setUpNewCity();
 
-        // What the thief stole
-        textHistory.append("The thief has stolen " + service.getStolenArtifact() + " !!\n");
-        textHistory.append(delimiters());
-        textHistory.append("\n");
+            // What the thief stole
+            textHistory.append("The thief has stolen " + service.getStolenArtifact() + " !!\n");
+            textHistory.append(delimiters());
+            textHistory.append("\n");
 
+            service.setNewLogin(false);
+        } else {
+            textHistory.setText(service.getTextHistory());
+        }
 
 
         textPersonAction.setOnClickListener(new View.OnClickListener() {
@@ -168,6 +173,8 @@ public class Main extends AppCompatActivity {
         textThiefAttributesAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                service.setTextHistory(textHistory.getText().toString());
+
                 Intent intent = new Intent(getApplicationContext(), ThiefAttributesActivity.class);
                 startActivity(intent);
                 finish();

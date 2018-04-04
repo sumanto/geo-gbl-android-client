@@ -131,6 +131,10 @@ public class Login extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+                service.setNewLogin(true);
+
+
+                // Go to main page now
                 Intent intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
             }

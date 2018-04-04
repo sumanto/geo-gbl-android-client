@@ -284,6 +284,23 @@ public class Service {
         this.sex = sex;
     }
 
+    public boolean isNewLogin() {
+        return newLogin;
+    }
+
+    public void setNewLogin(boolean newLogin) {
+        this.newLogin = newLogin;
+    }
+
+    public String getTextHistory() {
+        return textHistory;
+    }
+
+    public void setTextHistory(String textHistory) {
+        this.textHistory = textHistory;
+    }
+
+
 
     private Date dateTime;
 
@@ -325,4 +342,7 @@ public class Service {
     private List<String> feature;
     private List<String> vehicle;
     private List<String> sex;
+
+    private boolean newLogin;
+    private String textHistory;
 }
