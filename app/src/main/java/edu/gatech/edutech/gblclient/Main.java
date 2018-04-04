@@ -71,6 +71,9 @@ public class Main extends AppCompatActivity {
             service.setNewLogin(false);
         } else {
             textHistory.setText(service.getTextHistory());
+
+            textPersonAction.setText("> " + service.getPersonAction());
+            textPlaceAction.setText("> " + service.getPlaceAction());
         }
 
 
