@@ -128,7 +128,7 @@ public class Main extends AppCompatActivity {
             public void onClick(View v) {
 
                 List<String> flightList = service.getNextCities();
-                CharSequence flights[] = flightList.toArray(new CharSequence[flightList.size()]); // new CharSequence[] {"red", "green", "blue", "black"};
+                CharSequence flights[] = flightList.toArray(new CharSequence[flightList.size()]);
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
                 builder.setTitle("Where do you want to travel to?");
@@ -142,7 +142,7 @@ public class Main extends AppCompatActivity {
                         String cityChoice = nextCityObject.getCityName();
 
                         // Setup data
-                        Utility.setupNewCityActions(service, cityChoice, service.getRightChoice() == which);
+                        Utility.setupNewCityActions(service, cityChoice, service.getRightChoice() == (which + 1));
                         setUpNewCity();
 
                         // setup the alert builder
