@@ -113,6 +113,23 @@ public class Service {
         this.presentCityName = presentCityName;
     }
 
+
+    public String getPresentCityDescription() {
+        return presentCityDescription;
+    }
+
+    public void setPresentCityDescription(String presentCityDescription) {
+        this.presentCityDescription = presentCityDescription;
+    }
+
+    public String getPresentCityNickname() {
+        return presentCityNickname;
+    }
+
+    public void setPresentCityNickname(String presentCityNickname) {
+        this.presentCityNickname = presentCityNickname;
+    }
+
     public String getNextCityName() {
         return nextCityName;
     }
@@ -320,6 +337,8 @@ public class Service {
 
     private JSONObject presentCity;
     private String presentCityName;
+    private String presentCityDescription;
+    private String presentCityNickname;
 
     private JSONObject nextCity;
     private String nextCityName;

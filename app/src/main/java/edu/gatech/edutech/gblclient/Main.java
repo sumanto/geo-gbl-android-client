@@ -242,9 +242,10 @@ public class Main extends AppCompatActivity {
         textPlaceAction.setText("> " + service.getPlaceAction());
 
 
-        // Welcome user
+        // Welcome to city
         textHistory.append(delimiters());
-        textHistory.append("Welcome to " + service.getPresentCityName() + " !!\n");
+        textHistory.append("Welcome to " + service.getPresentCityName() + ", also known as " + service.getPresentCityNickname() + " !!\n");
+        textHistory.append(" - fun fact: " + service.getPresentCityDescription() + "\n");
         textHistory.append(delimiters());
         textHistory.append("\n");
     }
