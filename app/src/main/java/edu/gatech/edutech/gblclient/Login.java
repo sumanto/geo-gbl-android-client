@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.util.Log;
 
-// import com.gatech.yourapp.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -19,6 +18,7 @@ import java.util.List;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
+
 
 public class Login extends AppCompatActivity {
     String msg = "** Login: ";
@@ -75,6 +75,7 @@ public class Login extends AppCompatActivity {
 
                 // Set/reset thief attributes
                 JSONObject gameMetadata = service.getGameMetadata();
+                JSONObject cityMetadata = service.getGameMetadata();
 
                 ThiefAttributes thiefAttributes = service.getThiefAttributes();
                 try {
@@ -115,13 +116,16 @@ public class Login extends AppCompatActivity {
                     thiefAttributes.setVehicle(Utility.getRandomData(vehicleList));
 
                     Log.d(msg, "Thief attributes: " + thiefAttributes.toString());
+
+
+                    // Choose a initial city, as well as next city
+                    String firstCity = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
+                    Utility.setupNewCityActions(service, firstCity, true);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
 
-                // Choose a initial city, as well as next city
-                Utility.setupNewCityActions(service, "Los Angeles", true);
 
                 // Setup stolen information
                 try {

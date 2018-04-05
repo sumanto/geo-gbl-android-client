@@ -1,29 +1,19 @@
 package edu.gatech.edutech.gblclient;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
-
-import org.json.JSONException;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.gatech.edutech.gblclient.objects.CityObject;
-import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.utils.Service;
-import edu.gatech.edutech.gblclient.utils.Utility;
 
-// import android.support.v7.appcompat.*;
 
 public class ThiefAttributesActivity extends AppCompatActivity {
     String msg = "** ThiefAttributesActivity: ";

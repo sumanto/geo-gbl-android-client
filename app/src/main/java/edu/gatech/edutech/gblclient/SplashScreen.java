@@ -7,21 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,7 +15,6 @@ import org.json.JSONObject;
 import edu.gatech.edutech.gblclient.utils.Service;
 import edu.gatech.edutech.gblclient.utils.Utility;
 
-// import com.gatech.yourapp.R;
 
 public class SplashScreen extends AppCompatActivity {
     String msg = "** SplashScreen: ";

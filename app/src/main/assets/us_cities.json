@@ -14,13 +14,11 @@
       "name": "San Francisco",
       "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
       "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-      "wikipedia": "https://www.wikiwand.com/en/San_Francisco",
+      "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
-      "locations": [],
       "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
       "landmarks": {
         "Golden Gate Bridge": {
-          "description": "",
           "tidbits": [
             "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
             "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
@@ -57,51 +55,97 @@
     "New York": {
       "name": "New York",
       "description": "",
-      "wikipedia": "",
-      "wikitravel": "",
-      "locations": [],
-      "nicknames": {
-      },
+      "wikipedia": "https://en.wikipedia.org/wiki/New_York_City",
+      "wikitravel": "https://wikitravel.org/en/San_Francisco",
+      "nicknames": [ "The Big Apple", "The City of Dreams", "The City That Never Sleeps", "Empire City" ],
       "landmarks": {
+        "Statue of Liberty": {
+          "tidbits": [
+            "the copper statue, a gift from the people of France to the people of the United States."
+          ]
+        },
         "Brooklyn Bridge": {
           "tidbits": [
-            "World's last manually operated cable car system."
+            "a hybrid cable-stayed/suspension bridge and is one of the oldest roadway bridges in the United States."
+          ]
+        },
+        "Central Park": {
+          "tidbits": [
+            "sprawling park with pedestrian paths & ballfields, plus a zoo, carousel, boat rentals & a reservoir."
+          ]
+        },
+        "Times Square": {
+          "tidbits": [
+            "one of the world's busiest pedestrian areas, it is sometimes referred to as \"The Crossroads of the World\"."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Statue of Liberty", "Central Park", "Empire State Building", "Times Square", "Brooklyn Bridge" ]
     },
     "Washington DC": {
       "name": "Washington DC",
-      "description": "",
-      "wikipedia": "",
-      "wikitravel": "",
-      "locations": [],
+      "description": "Capital of the United States of America",
+      "wikipedia": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+      "wikitravel": "https://wikitravel.org/en/San_Francisco",
       "nicknames": [ "DC", "The American Rome", "The District", "The Federal City", "The Capital of the Free World" ],
       "landmarks": {
         "The White House": {
           "tidbits": [
-            "World's last manually operated cable car system."
+            "official residence and workplace of the President of the United States."
+          ]
+        },
+        "National Mall": {
+          "tidbits": [
+            "a long, grassy area that is home to iconic monuments including the Lincoln Memorial and the Washington Monument. "
+          ]
+        },
+        "United States Capitol": {
+          "tidbits": [
+            "home of the United States Congress, and the seat of the legislative branch of the U.S. federal government."
+          ]
+        },
+        "Washington Monument": {
+          "tidbits": [
+            "an obelisk on the National Mall, built to commemorate George Washington, the first President of the United States."
+          ]
+        },
+        "Smithsonian Institution": {
+          "tidbits": [
+            "a group of museums and research centers administered by the Government of the United States."
           ]
         }
       },
-      "steal": [ "The White House", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "The White House", "National Mall", "Capitol Building", "National Museum of Natural History", "Smithsonian Institute" ]
     },
     "Los Angeles": {
       "name": "Los Angeles",
       "description": "\"Los Angeles\" is the entertainment capital of the world",
-      "wikipedia": "",
-      "wikitravel": "",
-      "locations": [],
+      "wikipedia": "https://en.wikipedia.org/wiki/Los_Angeles",
+      "wikitravel": "https://wikitravel.org/en/Los_Angeles",
       "nicknames": [ "The Big Orange", "City of Angels", "City of Flowers and Sunshine", "La La Land" ],
       "landmarks": {
-        "Brooklyn Bridge": {
+        "Disneyland": {
           "tidbits": [
-            "World's last manually operated cable car system."
+            "an iconic amusement park with rides, shows & costumed characters."
+          ]
+        },
+        "Hollywood Walk of Fame": {
+          "tidbits": [
+            "it comprises more than 2,600 five-pointed terrazzo and brass stars embedded in the sidewalks along 15 blocks of Hollywood Boulevard"
+          ]
+        },
+        "La Brea Tar Pits": {
+          "tidbits": [
+            "ice Age–fossil excavation site with an adjacent museum, plus a re-created prehistoric garden."
+          ]
+        },
+        "Griffith Observatory": {
+          "tidbits": [
+            "a public observatory which offers a planetarium, exhibits, public telescopes, and the best views of the Los Angeles basin."
           ]
         }
       },
-      "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Staples Center Stadium" ]
+      "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Disneyland" ]
     }
   }
 }
