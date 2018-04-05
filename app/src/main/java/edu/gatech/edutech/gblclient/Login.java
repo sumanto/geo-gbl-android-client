@@ -75,7 +75,7 @@ public class Login extends AppCompatActivity {
 
                 // Set/reset thief attributes
                 JSONObject gameMetadata = service.getGameMetadata();
-                JSONObject cityMetadata = service.getGameMetadata();
+                JSONObject cityMetadata = service.getCityMetadata();
 
                 ThiefAttributes thiefAttributes = service.getThiefAttributes();
                 try {

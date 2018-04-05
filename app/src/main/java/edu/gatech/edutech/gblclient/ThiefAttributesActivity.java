@@ -53,31 +53,31 @@ public class ThiefAttributesActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Save changes
-                if (spinnerSex.getSelectedItem() != null) {
+                if (spinnerSex.getSelectedItem() != "") {
                     service.getGuessedAttributes().setSex((String) spinnerSex.getSelectedItem());
                 }
 
-                if (spinnerEye.getSelectedItem() != null) {
+                if (spinnerEye.getSelectedItem() != "") {
                     service.getGuessedAttributes().setEyes((String) spinnerEye.getSelectedItem());
                 }
 
-                if (spinnerHair.getSelectedItem() != null) {
+                if (spinnerHair.getSelectedItem() != "") {
                     service.getGuessedAttributes().setHair((String) spinnerHair.getSelectedItem());
                 }
 
-                if (spinnerHobby.getSelectedItem() != null) {
+                if (spinnerHobby.getSelectedItem() != "") {
                     service.getGuessedAttributes().setHobby((String) spinnerHobby.getSelectedItem());
                 }
 
-                if (spinnerFood.getSelectedItem() != null) {
+                if (spinnerFood.getSelectedItem() != "") {
                     service.getGuessedAttributes().setFood((String) spinnerFood.getSelectedItem());
                 }
 
-                if (spinnerFeature.getSelectedItem() != null) {
+                if (spinnerFeature.getSelectedItem() != "") {
                     service.getGuessedAttributes().setFeature((String) spinnerFeature.getSelectedItem());
                 }
 
-                if (spinnerVehicle.getSelectedItem() != null) {
+                if (spinnerVehicle.getSelectedItem() != "") {
                     service.getGuessedAttributes().setVehicle((String) spinnerVehicle.getSelectedItem());
                 }
 
