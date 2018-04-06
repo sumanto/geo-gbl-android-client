@@ -25,7 +25,7 @@
     <string name="main_travel">> Travel to the next destination</string>
     <string name="main_thief_attrs">> Enter attributes of the thief</string>
     <string name="main_warrant">> Issue warrant</string>
-    <string name="main_logout">> Logout</string>
+    <string name="main_back">> Go Back</string>
 
     <!-- String for scramble statistics page -->
     <string name="scramble_statistics_id">Id</string>

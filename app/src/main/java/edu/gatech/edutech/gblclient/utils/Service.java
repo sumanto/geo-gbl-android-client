@@ -317,6 +317,13 @@ public class Service {
         this.textHistory = textHistory;
     }
 
+    public boolean isGameInProgress() {
+        return gameInProgress;
+    }
+
+    public void setGameInProgress(boolean gameInProgress) {
+        this.gameInProgress = gameInProgress;
+    }
 
 
     private Date dateTime;
@@ -362,6 +369,7 @@ public class Service {
     private List<String> vehicle;
     private List<String> sex;
 
-    private boolean newLogin;
+    private boolean newLogin = false;
+    private boolean gameInProgress = false;
     private String textHistory;
 }

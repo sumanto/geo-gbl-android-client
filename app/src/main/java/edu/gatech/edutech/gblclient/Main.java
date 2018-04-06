@@ -25,7 +25,7 @@ public class Main extends AppCompatActivity {
     String msg = "** Main: ";
 
     Service service = Service.getInstance();
-    TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textLogout;
+    TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textBack;
     Main thisObject;
 
     @Override
@@ -43,7 +43,7 @@ public class Main extends AppCompatActivity {
         textTravelAction = findViewById(R.id.textTravelAction);
         textThiefAttributesAction = findViewById(R.id.textThiefAttributesAction);
         textWarrantAction = findViewById(R.id.textWarrantAction);
-        textLogout = findViewById(R.id.textLogout);
+        textBack = findViewById(R.id.textBack);
 
 
         // Set up scrolling
@@ -225,11 +225,13 @@ public class Main extends AppCompatActivity {
         });
 
 
-        // Logout action
-        textLogout.setOnClickListener(new View.OnClickListener() {
+        // Back button action
+        textBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Login.class);
+                service.setTextHistory(textHistory.getText().toString());
+
+                Intent intent = new Intent(getApplicationContext(), NewGame.class);
                 startActivity(intent);
                 finish();
             }

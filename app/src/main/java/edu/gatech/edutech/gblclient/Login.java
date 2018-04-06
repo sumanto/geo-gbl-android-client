@@ -73,73 +73,8 @@ public class Login extends AppCompatActivity {
                 service.setDateTime(new Date());
                 service.setUser(userName, user);
 
-                // Set/reset thief attributes
-                JSONObject gameMetadata = service.getGameMetadata();
-                JSONObject cityMetadata = service.getCityMetadata();
-
-                ThiefAttributes thiefAttributes = service.getThiefAttributes();
-                try {
-                    List<String> sexList = new ArrayList<>();
-                    sexList.add("male");
-                    sexList.add("female");
-                    service.setSex(sexList);
-                    thiefAttributes.setSex(Utility.getRandomData(sexList));
-
-                    if (thiefAttributes.getSex().equals("male")) {
-                        service.setThiefSalutation("He");
-                    } else {
-                        service.setThiefSalutation("She");
-                    }
-
-                    List<String> eyesList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("eyes").names());
-                    service.setEyes(eyesList);
-                    thiefAttributes.setEyes(Utility.getRandomData(eyesList));
-
-                    List<String> hairList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hair").names());
-                    service.setHair(hairList);
-                    thiefAttributes.setHair(Utility.getRandomData(hairList));
-
-                    List<String> hobbyList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("hobby").names());
-                    service.setHobby(hobbyList);
-                    thiefAttributes.setHobby(Utility.getRandomData(hobbyList));
-
-                    List<String> foodList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("food").names());
-                    service.setFood(foodList);
-                    thiefAttributes.setFood(Utility.getRandomData(foodList));
-
-                    List<String> featureList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("feature").names());
-                    service.setFeature(featureList);
-                    thiefAttributes.setFeature(Utility.getRandomData(featureList));
-
-                    List<String> vehicleList = Utility.convertJSONArrayToList(gameMetadata.getJSONObject("attributes").getJSONObject("vehicle").names());
-                    service.setVehicle(vehicleList);
-                    thiefAttributes.setVehicle(Utility.getRandomData(vehicleList));
-
-                    Log.d(msg, "Thief attributes: " + thiefAttributes.toString());
-
-
-                    // Choose a initial city, as well as next city
-                    String firstCity = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
-                    Utility.setupNewCityActions(service, firstCity, true);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-
-
-                // Setup stolen information
-                try {
-                    service.setStolenCityName(service.getPresentCity().getString("name"));
-                    service.setStolenArtifact(Utility.getRandomData(Utility.convertJSONArrayToList(service.getPresentCity().getJSONArray("steal"))));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-                service.setNewLogin(true);
-
-
                 // Go to main page now
-                Intent intent = new Intent(getApplicationContext(), Main.class);
+                Intent intent = new Intent(getApplicationContext(), NewGame.class);
                 startActivity(intent);
             }
         });
