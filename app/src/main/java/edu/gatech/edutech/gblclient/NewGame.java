@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.gatech.edutech.gblclient.objects.CityObject;
+import edu.gatech.edutech.gblclient.objects.GameStatistics;
 import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 import edu.gatech.edutech.gblclient.utils.Service;
@@ -113,6 +114,14 @@ public class NewGame extends AppCompatActivity {
                 service.setNewLogin(true);
                 service.setGameInProgress(true);
 
+                // Reset game statistics
+                GameStatistics gameStatistics = service.getGameStatistics();
+                gameStatistics.setCitiesVisited(1);
+                gameStatistics.setCorrectCitiesVisited(1);
+                gameStatistics.setPersonsTalkedTo(0);
+                gameStatistics.setPlacesVisited(0);
+                gameStatistics.setWarrantsIssued(0);
+
                 Intent intent = new Intent(getApplicationContext(), Main.class);
                 startActivity(intent);
                 finish();
@@ -149,15 +158,18 @@ public class NewGame extends AppCompatActivity {
         buttonGameStatistics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // setup the alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
-                builder.setTitle("*** Game statistics ***");
-                builder.setMessage("To be implemented...");
 
-                // add a button
+                builder.setTitle("*** Game statistics ***");
+                GameStatistics statistics = service.getGameStatistics();
+                builder.setMessage("Cities visited: " + statistics.getCitiesVisited()
+                        + "\nCorrect cities visited: " + statistics.getCorrectCitiesVisited()
+                        + "\nPersons talked to: " + statistics.getPersonsTalkedTo()
+                        + "\nPlaces visited: " + statistics.getPlacesVisited()
+                        + "\nWarrants issues: " + statistics.getWarrantsIssued());
+
                 builder.setPositiveButton("OK", null);
 
-                // create and show the alert dialog
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }

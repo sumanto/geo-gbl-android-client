@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import edu.gatech.edutech.gblclient.objects.CityObject;
+import edu.gatech.edutech.gblclient.objects.GameStatistics;
 import edu.gatech.edutech.gblclient.objects.PlaceAttributes;
 import edu.gatech.edutech.gblclient.objects.ThiefAttributes;
 
@@ -245,6 +246,14 @@ public class Service {
         this.nextCitiesObjects = nextCitiesObjects;
     }
 
+    public GameStatistics getGameStatistics() {
+        return gameStatistics;
+    }
+
+    public void setGameStatistics(GameStatistics gameStatistics) {
+        this.gameStatistics = gameStatistics;
+    }
+
     public List<String> getEyes() {
         return eyes;
     }
@@ -361,6 +370,7 @@ public class Service {
     private List<String> nextCities;
     private List<CityObject> nextCitiesObjects;
 
+    private GameStatistics gameStatistics = new GameStatistics();
     private List<String> eyes;
     private List<String> hair;
     private List<String> hobby;
