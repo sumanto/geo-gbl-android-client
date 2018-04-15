@@ -145,39 +145,33 @@
       "wikitravel": "https://wikitravel.org/en/Chicago",
       "nicknames": [ "Mud City", "City in a Garden", "The Windy City", "The City of the Big Shoulders", "The real Gotham" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Museum of Science and Industry": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "sprawling, hands-on museum full of informative, child-friendly scientific & industrial exhibits."
           ]
         },
-        "Alcatraz Island": {
+        "American Writers Museum": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "through innovative and dynamic state-of-the-art exhibitions, as well as compelling programming, the American Writers Museum educates, enriches, provokes, and inspires visitors of all ages."
           ]
         },
-        "Lombard Street": {
+        "The Magnificent Mile": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "a spectacular showcase of style, flavor, entertainment and fun. With more than 460 stores, 275 restaurants, 60 hotels and unique entertainments and attractions packed and stacked along its length, The Magnificent Mile has an indulgence for every passion and every pocket."
           ]
         },
-        "Pier 39": {
+        "Cloud Gate": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "a public sculpture by Indian-born British artist Sir Anish Kapoor, that is the centerpiece of AT&T Plaza at Millennium Park."
           ]
         },
-        "Cable Cars": {
+        "Millennium Park": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "three square blocks of open lakefront complete with a Ferris Wheel, outdoor music pavillion and ice skating rink; expected to become one of the city's most popular sites."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Chicago Symphony Orchestra", "American Writers Museum", "Museum of Science and Industry", "The Magnificent Mile", "Cloud Gate" ]
     },
     "Seattle": {
       "name": "Seattle",
@@ -186,39 +180,33 @@
       "wikitravel": "https://wikitravel.org/en/Seattle",
       "nicknames": [ "City of Flowers", "Emerald City", "Queen City" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Museum of Pop Culture": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "inspired by Jimi Hendrix, the museum includes items from icons ranging from Bo Diddley to Bob Dylan."
           ]
         },
-        "Alcatraz Island": {
+        "The Museum of Flight": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "from the Wright brothers to the exploration of Mars, you'll find it at The Museum of Flight!"
           ]
         },
-        "Lombard Street": {
+        "Pike Place Market": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "one of the few authentic farmer's markets in the United States, this hub of delicious scents, delectable eats and delightful personalities attracts nine million visitors a year."
           ]
         },
-        "Pier 39": {
+        "Safeco Field": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "a retractable roof baseball park for the Mariners."
           ]
         },
-        "Cable Cars": {
+        "Space Needle": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "iconic, 605-ft.-tall spire with an observation deck & a rotating restaurant."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Space Needle", "Pike Place Market", "Seattle Symphony", "Safeco Field", "The Museum of Flight" ]
     },
     "San Diego": {
       "name": "San Diego",
@@ -227,39 +215,33 @@
       "wikitravel": "https://wikitravel.org/en/San_Diego",
       "nicknames": [ "America's Finest City", "City in Motion", "Sun Dog", "Silicon Beach" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Cabrillo National Monument": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "stately monument honoring Cabrillo, is located in Point Loma that overlooks the city and the Bay."
           ]
         },
-        "Alcatraz Island": {
+        "Mt. Soledad National Veterans Memorial": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "massive cross monument honoring American veterans, with plaques telling their stories."
           ]
         },
-        "Lombard Street": {
+        "USS Midway Museum": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "it was America’s longest-serving aircraft carrier of the 20th century. Today, the interactive museum is an unforgettable adventure for the entire family as guests walk in the footsteps of the 225,000 young men who served on Midway."
           ]
         },
-        "Pier 39": {
+        "Balboa Park": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "one of the most popular urban parks in the United States, this bucolic paradise is packed with an array of attractions, including a world-famous zoo."
           ]
         },
-        "Cable Cars": {
+        "SeaWorld San Diego": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "only at SeaWorld can you get close to dolphins, penguins, sharks and more."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "SeaWorld San Diego", "Balboa Park", "USS Midway Museum", "San Diego Zoo", "Cabrillo National Monument" ]
     },
     "Honolulu": {
       "name": "Honolulu",
@@ -268,39 +250,33 @@
       "wikitravel": "https://wikitravel.org/en/Honolulu",
       "nicknames": [ "The Big Pineapple", "Crossroads of the Pacific", "Sheltered Bay", "Paradise" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Bishop Museum": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "museum showcases exhibits on Hawaiian & other Pacific Island cultures, plus features a planetarium."
           ]
         },
-        "Alcatraz Island": {
+        "Iolani Palace": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "opulent 19th-century home of Hawaii’s last monarchs operating as a museum with tours & exhibits."
           ]
         },
-        "Lombard Street": {
+        "Queen Emma Summer Palace": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "once the summer palace for Queen Emma & family, this 19th-century home is now a museum with tours."
           ]
         },
-        "Pier 39": {
+        "WW II Valor in the Pacific National Monument": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "A 184-foot memorial honoring the 2,388 Americans who died during the Japanese attack on Pearl Harbor."
           ]
         },
-        "Cable Cars": {
+        "Waikiki Beach": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "Oahu's most popular beach."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Waikiki Beach", "Iolani Palace", "WW II Valor in the Pacific National Monument", "Queen Emma Summer Palace", "Honolulu Museum of Art" ]
     },
     "Miami": {
       "name": "Miami",
@@ -309,39 +285,28 @@
       "wikitravel": "https://wikitravel.org/en/Miami",
       "nicknames": [ "Magic City", "The Gateway to the Americas", "Capital of Latin America" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "American Airlines Arena": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "a modern architectural marvel where the NBA's Heat play."
           ]
         },
-        "Alcatraz Island": {
+        "Vizcaya Museum and Gardens": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "built in 1916 as a winter retreat, this lavish villa is a tribute to the Italian Renaissance. The museum contains much of the original furnishings and artwork, and is surrounded by lush, formal gardens."
           ]
         },
-        "Lombard Street": {
+        "Wynwood Walls": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "an outdoor museum of international street art; it has become a phenomenon, spurring the creation of murals throughout the Wynwood district. It is now one of the best venues in the world to see the work of leading street artists. "
           ]
         },
-        "Pier 39": {
+        "South Beach": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
-          ]
-        },
-        "Cable Cars": {
-          "tidbits": [
-            "world's last manually operated cable car system."
+            "People watching is a great pastime in Miami's South Beach, which draws celebrities and beautiful people in skimpy swim attire to see and be seen."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "South Beach", "Wynwood Walls", "Miami Ocean Drive", "Vizcaya Museum and Gardens", "American Airlines Arena" ]
     },
     "Houston": {
       "name": "Houston",
@@ -350,39 +315,33 @@
       "wikitravel": "https://wikitravel.org/en/Houston",
       "nicknames": [ "Big Heart", "Space City", "Clutch City", "City of Syrup", "Bayou City", "Magnolia City" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Livestock Show and Rodeo": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "is the world's largest livestock show and richest regular-season rodeo dedicated to benefiting youth, supporting education, and facilitating better agricultural practices through exhibitions and presentation."
           ]
         },
-        "Alcatraz Island": {
+        "Cockrell Butterfly Center": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            " the glass-enclosed butterfly habitat includes a simulated rainforest and thousands of colorful butterflies; a dramatic 50-foot waterfall and exotic plants transport visitors."
           ]
         },
-        "Lombard Street": {
+        "Rice University": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "a private research university located in Texas, the university is generally considered the foremost university and the most selective institution of higher education in Texas."
           ]
         },
-        "Pier 39": {
+        "Minute Maid Park": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "previously known as The Ballpark at Union Station, Enron Field, and Astros Field, is a ballpark that opened in 2000 to house the Houston Astros of MLB."
           ]
         },
-        "Cable Cars": {
+        "Space Center": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "it is the Official Visitor Center of NASA Johnson Space Center and features more than 400 space artifacts."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "National Museum of Funeral History", "Houston Zoo", "Rice University", "Minute Maid Park", "Space Center Houston" ]
     },
     "Philadelphia": {
       "name": "Philadelphia",
@@ -391,39 +350,33 @@
       "wikitravel": "https://wikitravel.org/en/Philadelphia",
       "nicknames": [ "The City of Brotherly Love", "The Athens of America", "The Birthplace of America", "The Cradle of Liberty", "The Workshop of the World" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "The Franklin Institute": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "lively, family-friendly science museum with many interactive exhibits & displays plus a planetarium."
           ]
         },
-        "Alcatraz Island": {
+        "Liberty Bell": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "last rung in 1846, this 2,080-pound icon of freedom features a biblical inscription & a famed crack."
           ]
         },
-        "Lombard Street": {
+        "Eastern State Penitentiary": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "it was once the most famous and expensive prison in the world, but stands today in ruin, a haunting world of crumbling cellblocks and empty guard towers."
           ]
         },
-        "Pier 39": {
+        "Cathedral Basilica of Saints Peter and Paul": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
+            "the head church of Philadelphia's Catholic Archdiocese is on the National Registrar of Historic Places. Pope John Paul II celebrated Mass here in 1979."
           ]
         },
-        "Cable Cars": {
+        "University of Pennsylvania": {
           "tidbits": [
-            "world's last manually operated cable car system."
+            "this Ivy League institution counts, among its founders, Ben Franklin."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Philadelphia Museum of Art", "Eastern State Penitentiary", "Cathedral Basilica of Saints Peter and Paul", "Masonic Temple", "University of Pennsylvania" ]
     },
     "Phoenix": {
       "name": "Phoenix",
@@ -432,39 +385,28 @@
       "wikitravel": "https://wikitravel.org/en/Phoenix",
       "nicknames": [ "Valley of the Sun", "Silicon Desert", "PHX" ],
       "landmarks": {
-        "Golden Gate Bridge": {
+        "Musical Instrument Museum": {
           "tidbits": [
-            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-            "if you untangled all of its cables, they would stretch around the world 3 times"
+            "the World's Only Global Musical Instrument Museum."
           ]
         },
-        "Alcatraz Island": {
+        "Arizona State University": {
           "tidbits": [
-            "developed with facilities for a lighthouse, a military fortification, a military prison",
-            "it had a federal prison from 1934 to 1963",
-            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+            "with an undergraduate student body of nearly 34,000, ASU is the state's largest institution of higher learning."
           ]
         },
-        "Lombard Street": {
+        "Western Spirit: Scottsdale's Museum of the West": {
           "tidbits": [
-            "the street is famous for a steep, one-block section with eight hairpin turns. ",
-            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+            "celebrates the art, history and unique stories of the 19 states comprising the American West."
           ]
         },
-        "Pier 39": {
+        "Chase Field": {
           "tidbits": [
-            "famous for sea lions.",
-            "where you can take a cruise to under a famous bridge."
-          ]
-        },
-        "Cable Cars": {
-          "tidbits": [
-            "world's last manually operated cable car system."
+            "The home of the state's Major League Baseball team, the Arizona Diamondbacks."
           ]
         }
       },
-      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+      "steal": [ "Camelback Mountain", "Orpheum Theater", "Arizona State University", "Chase Field", "San Francisco Zoo" ]
     },
     "Kansas City": {
       "name": "Kansas City",
