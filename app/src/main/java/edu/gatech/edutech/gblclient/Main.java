@@ -84,8 +84,14 @@ public class Main extends AppCompatActivity {
             public void onClick(View v) {
                 // setup the alert builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
-                builder.setTitle(Character.toUpperCase(service.getPerson().charAt(0)) + service.getPerson().substring(1) + ":");
-                builder.setMessage(service.getPersonText());
+
+                String persona = Character.toUpperCase(service.getPerson().charAt(0)) + service.getPerson().substring(1);
+                builder.setTitle(persona + ":");
+
+                String personaText = service.getPersonText();
+                builder.setMessage(personaText);
+
+                textHistory.append(persona  + " said: " + personaText + "\n" + delimiters() + "\n");
 
                 // add a button
                 builder.setPositiveButton("OK", null);

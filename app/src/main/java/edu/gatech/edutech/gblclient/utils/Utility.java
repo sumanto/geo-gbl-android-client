@@ -92,8 +92,16 @@ public class Utility extends Application {
             service.setPresentCityDescription(service.getPresentCity().getString("description"));
             service.setPresentCityNickname(getRandomData(convertJSONArrayToList(service.getPresentCity().getJSONArray("nicknames"))));
 
-            String nextCityName = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
-            JSONObject nextCity = cityMetadata.getJSONObject("cities").getJSONObject(nextCityName);
+            String nextCityName;
+            JSONObject nextCity;
+            if (correctCity) {
+                nextCityName = Utility.getRandomData(Utility.convertJSONArrayToList(cityMetadata.getJSONObject("cities").names()));
+                nextCity = cityMetadata.getJSONObject("cities").getJSONObject(nextCityName);
+            } else {
+                nextCityName = service.getNextCityName();
+                nextCity = service.getNextCity();
+            }
+
             service.setNextCity(nextCity);
             service.setNextCityName(service.getNextCity().getString("name"));
 
