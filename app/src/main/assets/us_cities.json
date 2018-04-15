@@ -139,5 +139,719 @@
       },
       "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Disneyland" ]
     }
+  },
+  "Chicago": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Seattle": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "San Diego": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Honolulu": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Miami": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Houston": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Philadelphia": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Phoenix": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Kansas City": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "New Orleans": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Austin": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Las Vegas": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Savannah": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Portland": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Cleveland": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Pittsburgh": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+  },
+  "Salt Lake City": {
+    "name": "San Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
+    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
+    "wikitravel": "https://wikitravel.org/en/San_Francisco",
+    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "landmarks": {
+      "Golden Gate Bridge": {
+        "tidbits": [
+          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+          "if you untangled all of its cables, they would stretch around the world 3 times"
+        ]
+      },
+      "Alcatraz Island": {
+        "tidbits": [
+          "developed with facilities for a lighthouse, a military fortification, a military prison",
+          "it had a federal prison from 1934 to 1963",
+          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+        ]
+      },
+      "Lombard Street": {
+        "tidbits": [
+          "the street is famous for a steep, one-block section with eight hairpin turns. ",
+          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+        ]
+      },
+      "Pier 39": {
+        "tidbits": [
+          "famous for sea lions.",
+          "where you can take a cruise to under a famous bridge."
+        ]
+      },
+      "Cable Cars": {
+        "tidbits": [
+          "world's last manually operated cable car system."
+        ]
+      }
+    },
+    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   }
 }
