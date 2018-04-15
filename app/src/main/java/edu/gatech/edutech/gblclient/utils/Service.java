@@ -2,10 +2,8 @@ package edu.gatech.edutech.gblclient.utils;
 
 import org.json.JSONObject;
 
-import java.net.SocketTimeoutException;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 import edu.gatech.edutech.gblclient.objects.CityObject;
 import edu.gatech.edutech.gblclient.objects.GameStatistics;
@@ -70,6 +68,15 @@ public class Service {
 
     public void setSchoolDistrict(String schoolDistrict) {
         this.schoolDistrict = schoolDistrict;
+    }
+
+
+    public String getGameName() {
+        return gameName;
+    }
+
+    public void setGameName(String gameName) {
+        this.gameName = gameName;
     }
 
     public String getUserName() {
@@ -317,12 +324,12 @@ public class Service {
         this.sex = sex;
     }
 
-    public boolean isNewLogin() {
-        return newLogin;
+    public boolean isNewGame() {
+        return newGame;
     }
 
-    public void setNewLogin(boolean newLogin) {
-        this.newLogin = newLogin;
+    public void setNewGame(boolean newGame) {
+        this.newGame = newGame;
     }
 
     public String getTextHistory() {
@@ -345,6 +352,7 @@ public class Service {
     private Date dateTime;
 
     private String schoolDistrict;
+    private String gameName;
 
     private String userName;
     private String userFullName;
@@ -388,7 +396,7 @@ public class Service {
     private List<String> vehicle;
     private List<String> sex;
 
-    private boolean newLogin = false;
+    private boolean newGame = false;
     private boolean gameInProgress = false;
     private String textHistory;
 }

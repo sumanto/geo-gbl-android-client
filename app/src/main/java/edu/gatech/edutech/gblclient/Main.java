@@ -25,7 +25,7 @@ public class Main extends AppCompatActivity {
     String msg = "** Main: ";
 
     Service service = Service.getInstance();
-    TextView textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textBack;
+    TextView textInformation, textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textBack;
     Main thisObject;
 
     @Override
@@ -36,6 +36,7 @@ public class Main extends AppCompatActivity {
 
         thisObject = this;
 
+        textInformation = findViewById(R.id.textInformation);
         textHistory = findViewById(R.id.textHistory);
 
         textPersonAction = findViewById(R.id.textPersonAction);
@@ -50,12 +51,14 @@ public class Main extends AppCompatActivity {
         textHistory.setMovementMethod(new ScrollingMovementMethod());
 
 
+        textInformation.setText(getInfoBar(service));
+
         // Differentiate between coming back and initial page
-        if (service.isNewLogin()) {
+        if (service.isNewGame()) {
             textHistory.setText("");
 
             // Welcome user
-            textHistory.append("Welcome " + service.getUserFullName() + " !!\n");
+            textHistory.append("Welcome " + service.getUserFullName() + " (username: " + service.getUserName()+ ") !!\n");
             textHistory.append(delimiters());
             textHistory.append("\n");
 
@@ -66,9 +69,10 @@ public class Main extends AppCompatActivity {
             textHistory.append(delimiters());
             textHistory.append("\n");
 
-            service.setNewLogin(false);
+            service.setNewGame(false);
         } else {
             textHistory.setText(service.getTextHistory());
+            textHistory.requestFocus();
 
             textPersonAction.setText("> " + service.getPersonAction());
             textPlaceAction.setText("> " + service.getPlaceAction());
@@ -240,6 +244,7 @@ public class Main extends AppCompatActivity {
 
 
     public void setUpNewCity() {
+        textInformation.setText(getInfoBar(service));
         textPersonAction.setText("> " + service.getPersonAction());
         textPlaceAction.setText("> " + service.getPlaceAction());
 
@@ -250,6 +255,11 @@ public class Main extends AppCompatActivity {
         textHistory.append(" - fun fact: " + service.getPresentCityDescription() + "\n");
         textHistory.append(delimiters());
         textHistory.append("\n");
+    }
+
+
+    public String getInfoBar(Service service) {
+        return "Game: " + service.getGameName() + "; City: " + service.getPresentCityName();
     }
 
 

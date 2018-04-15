@@ -82,9 +82,8 @@ public class ChooseGame extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parentView) {
-                // TODO: check if needed
+                // Not needed as of now
             }
-
         });
 
 
@@ -92,6 +91,8 @@ public class ChooseGame extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(msg, "Continue button clicked");
+
+                service.setGameName((String) spinnerChooseGame.getSelectedItem());
 
                 // Set intent to Login page
                 Intent intent = new Intent(getApplicationContext(), NewGame.class);
