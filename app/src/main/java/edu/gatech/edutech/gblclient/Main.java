@@ -27,6 +27,9 @@ public class Main extends AppCompatActivity {
     Service service = Service.getInstance();
     TextView textInformation, textHistory, textPersonAction, textPlaceAction, textTravelAction, textThiefAttributesAction, textWarrantAction, textBack;
     Main thisObject;
+    boolean newPerson = true;
+    boolean newPlace = true;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +59,9 @@ public class Main extends AppCompatActivity {
         // Differentiate between coming back and initial page
         if (service.isNewGame()) {
             textHistory.setText("");
+
+            newPerson = true;
+            newPlace = true;
 
             // Welcome user
             textHistory.append("Welcome " + service.getUserFullName() + " (username: " + service.getUserName()+ ") !!\n");
@@ -96,6 +102,11 @@ public class Main extends AppCompatActivity {
                 // add a button
                 builder.setPositiveButton("OK", null);
 
+                if (newPerson) {
+                    service.getGameStatistics().setPersonsTalkedTo(service.getGameStatistics().getPersonsTalkedTo() + 1);
+                    newPerson = false;
+                }
+
                 // create and show the alert dialog
                 AlertDialog dialog = builder.create();
                 dialog.show();
@@ -126,6 +137,11 @@ public class Main extends AppCompatActivity {
                 // add a button
                 builder.setPositiveButton("OK", null);
 
+                if (newPlace) {
+                    service.getGameStatistics().setPlacesVisited(service.getGameStatistics().getPlacesVisited() + 1);
+                    newPlace = false;
+                }
+
                 // create and show the alert dialog
                 AlertDialog dialog = builder.create();
                 dialog.show();
@@ -136,6 +152,27 @@ public class Main extends AppCompatActivity {
         textTravelAction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (service.getGameStatistics().getWarrantsIssued() >= 3) {
+                    String alertMessage = "Your have exhausted the number of warrants. You have to start a new game.";
+
+                    // setup the alert builder
+                    AlertDialog.Builder builder = new AlertDialog.Builder(thisObject);
+                    builder.setTitle("*** Game over ***");
+                    builder.setMessage(alertMessage);
+
+                    // add a button
+                    builder.setPositiveButton("OK", null);
+
+                    // create and show the alert dialog
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+
+                    return;
+                }
+
+                newPerson = true;
+                newPlace = true;
 
                 List<String> flightList = service.getNextCities();
                 CharSequence flights[] = flightList.toArray(new CharSequence[flightList.size()]);
@@ -152,6 +189,11 @@ public class Main extends AppCompatActivity {
                         String cityChoice = nextCityObject.getCityName();
 
                         // Setup data
+                        service.getGameStatistics().setCitiesVisited(service.getGameStatistics().getCitiesVisited() + 1);
+                        if (service.getRightChoice() == (which + 1)) {
+                            service.getGameStatistics().setCorrectCitiesVisited(service.getGameStatistics().getCorrectCitiesVisited() + 1);
+                        }
+
                         Utility.setupNewCityActions(service, cityChoice, service.getRightChoice() == (which + 1));
                         setUpNewCity();
 
@@ -201,7 +243,9 @@ public class Main extends AppCompatActivity {
                 ThiefAttributes thiefAttributes = service.getThiefAttributes();
 
                 String alertMessage;
-                if (guesses.getSex() == null || guesses.getEyes() == null || guesses.getHobby() == null ||
+                if (service.getGameStatistics().getWarrantsIssued() >= 3) {
+                    alertMessage = "Your warrant was incorrect. You can't issue any more warrants. You have to start a new game.";
+                } else if (guesses.getSex() == null || guesses.getEyes() == null || guesses.getHobby() == null ||
                         guesses.getFeature() == null || guesses.getHair() == null ||
                         guesses.getFood() == null || guesses.getVehicle() == null) {
                     alertMessage = "You have to set all thief attributes before you can issue a warrant";
@@ -215,8 +259,12 @@ public class Main extends AppCompatActivity {
                             thiefAttributes.getVehicle().equals(guesses.getVehicle())) {
                         alertMessage = "Congrats you caught the thief :)";
                     } else {
-                        // TODO: make it 3 chances
-                        alertMessage = "Your warrant was incorrect. You have 2 more chances. Use them wisely.";
+                        if (service.getGameStatistics().getWarrantsIssued() >= 2) {
+                            alertMessage = "Your warrant was incorrect. You can't issue any more warrants. You have to start a new game.";
+                        } else {
+                            service.getGameStatistics().setWarrantsIssued(service.getGameStatistics().getWarrantsIssued() + 1);
+                            alertMessage = "Your warrant was incorrect. You have " + (3 - service.getGameStatistics().getWarrantsIssued()) + " more chances. Use them wisely.";
+                        }
                     }
                 }
 

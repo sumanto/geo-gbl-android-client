@@ -161,7 +161,7 @@ public class NewGame extends AppCompatActivity {
                         + "\nCorrect cities visited: " + statistics.getCorrectCitiesVisited()
                         + "\nPersons talked to: " + statistics.getPersonsTalkedTo()
                         + "\nPlaces visited: " + statistics.getPlacesVisited()
-                        + "\nWarrants issues: " + statistics.getWarrantsIssued());
+                        + "\nWarrants issued: " + statistics.getWarrantsIssued() + " (Out of 3)");
 
                 builder.setPositiveButton("OK", null);
 
