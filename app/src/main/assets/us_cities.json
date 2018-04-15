@@ -5,7 +5,6 @@
     "San Francisco": {
       "name": "San Francisco",
       "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-      "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
       "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
       "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
@@ -44,11 +43,11 @@
       },
       "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
     },
-    "New York": {
-      "name": "New York",
-      "description": "",
+    "New York City": {
+      "name": "New York City",
+      "description": "The City of New York, often called New York City or simply New York, is the most populous city in the United States",
       "wikipedia": "https://en.wikipedia.org/wiki/New_York_City",
-      "wikitravel": "https://wikitravel.org/en/San_Francisco",
+      "wikitravel": "https://wikitravel.org/en/New_York_City",
       "nicknames": [ "The Big Apple", "The City of Dreams", "The City That Never Sleeps", "Empire City" ],
       "landmarks": {
         "Statue of Liberty": {
@@ -74,11 +73,11 @@
       },
       "steal": [ "Statue of Liberty", "Central Park", "Empire State Building", "Times Square", "Brooklyn Bridge" ]
     },
-    "Washington DC": {
-      "name": "Washington DC",
-      "description": "Capital of the United States of America",
+    "Washington, D.C.": {
+      "name": "Washington, D.C.",
+      "description": "Washington, D.C., formally the District of Columbia and commonly referred to as Washington or D.C., is the capital of the United States of America",
       "wikipedia": "https://en.wikipedia.org/wiki/Washington,_D.C.",
-      "wikitravel": "https://wikitravel.org/en/San_Francisco",
+      "wikitravel": "https://wikitravel.org/en/Washington,_D.C.",
       "nicknames": [ "DC", "The American Rome", "The District", "The Federal City", "The Capital of the Free World" ],
       "landmarks": {
         "The White House": {
@@ -111,7 +110,7 @@
     },
     "Los Angeles": {
       "name": "Los Angeles",
-      "description": "\"Los Angeles\" is the entertainment capital of the world",
+      "description": "Los Angeles is the cultural, financial, and commercial center of Southern California.",
       "wikipedia": "https://en.wikipedia.org/wiki/Los_Angeles",
       "wikitravel": "https://wikitravel.org/en/Los_Angeles",
       "nicknames": [ "The Big Orange", "City of Angels", "City of Flowers and Sunshine", "La La Land" ],
@@ -141,12 +140,11 @@
     }
   },
   "Chicago": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Chicago",
+    "description": "Chicago, officially the City of Chicago, is the third most populous city in the United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chicago",
+    "wikitravel": "https://wikitravel.org/en/Chicago",
+    "nicknames": [ "Mud City", "City in a Garden", "The Windy City", "The City of the Big Shoulders", "The real Gotham" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -183,12 +181,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Seattle": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Seattle",
+    "description": "Seattle is a seaport city on the west coast of the United States and the largest city in the Pacific Northwest",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seattle",
+    "wikitravel": "https://wikitravel.org/en/Seattle",
+    "nicknames": [ "City of Flowers", "Emerald City", "Queen City" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -225,12 +222,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "San Diego": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "San Diego",
+    "description": "San Diego is a large and pleasant coastal city right on the Pacific Ocean in Southern California",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Diego",
+    "wikitravel": "https://wikitravel.org/en/San_Diego",
+    "nicknames": [ "America's Finest City", "City in Motion", "Sun Dog", "Silicon Beach" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -267,12 +263,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Honolulu": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Honolulu",
+    "description": "Honolulu, on the island of Oahu, is the capital and largest city of the state of Hawaii",
+    "wikipedia": "https://en.wikipedia.org/wiki/Honolulu",
+    "wikitravel": "https://wikitravel.org/en/Honolulu",
+    "nicknames": [ "The Big Pineapple", "Crossroads of the Pacific", "Sheltered Bay", "Paradise" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -309,12 +304,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Miami": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Miami",
+    "description": "Miami is a major port city on the Atlantic coast of south Florida in the southeastern United States",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miami",
+    "wikitravel": "https://wikitravel.org/en/Miami",
+    "nicknames": [ "Magic City", "The Gateway to the Americas", "Capital of Latin America" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -351,12 +345,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Houston": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Houston",
+    "description": "Houston is the most populous city in Texas and the fourth-most populous city in the United States",
+    "wikipedia": "https://en.wikipedia.org/wiki/Houston",
+    "wikitravel": "https://wikitravel.org/en/Houston",
+    "nicknames": [ "Big Heart", "Space City", "Clutch City", "City of Syrup", "Bayou City", "Magnolia City" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -393,12 +386,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Philadelphia": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Philadelphia",
+    "description": "Philadelphia, often referred to as Philly, is the largest city in the Commonwealth of Pennsylvania and the sixth-most populous city in the United States",
+    "wikipedia": "https://en.wikipedia.org/wiki/Philadelphia",
+    "wikitravel": "https://wikitravel.org/en/Philadelphia",
+    "nicknames": [ "The City of Brotherly Love", "The Athens of America", "The Birthplace of America", "The Cradle of Liberty", "The Workshop of the World" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -435,12 +427,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Phoenix": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Phoenix",
+    "description": "Phoenix is the capital of Arizona as well as the most populous city in the American Southwest and sixth largest city in the United States",
+    "wikipedia": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+    "wikitravel": "https://wikitravel.org/en/Phoenix",
+    "nicknames": [ "Valley of the Sun", "Silicon Desert", "PHX" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -477,12 +468,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Kansas City": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Kansas City",
+    "description": "Kansas City is a large, major midwestern city on the border of Missouri and Kansas and the largest city in Missouri",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+    "wikitravel": "https://wikitravel.org/en/Kansas_City",
+    "nicknames": [ "BBQ Capital of the World", "City of Fountains", "Paris of the Plains", "Jazz Capital of the World" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -519,12 +509,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "New Orleans": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "New Orleans",
+    "description": "New Orleans is one of nation's oldest cities where you'll find the roots of jazz and a blossoming culture that has been long described as being unlike anything else in the United States",
+    "wikipedia": "https://en.wikipedia.org/wiki/New_Orleans",
+    "wikitravel": "https://wikitravel.org/en/New_Orleans",
+    "nicknames": [ "Birthplace of Jazz", "Crescent City", "Paris of the South", "The South's Most Interesting City", "The Big Easy", "Mardi Gras City" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -561,12 +550,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Austin": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Austin",
+    "description": "Austin is the capital of Texas and home to a major university as well as an influential center for politics, technology, music, film and (increasingly) a food scene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Austin",
+    "wikitravel": "https://wikitravel.org/en/Austin",
+    "nicknames": [ "ATX", "Bat City", "The Capitol City", "City of the Violet Crown", "Live Music Capital of the World", "River City", "Silicon Hills" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -603,12 +591,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Las Vegas": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Las Vegas",
+    "description": "Las Vegas, officially the City of Las Vegas and often known simply as Vegas and located in the Mojave Desert of Southern Nevada, is the largest city in Nevada",
+    "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas",
+    "wikitravel": "https://wikitravel.org/en/Las_Vegas",
+    "nicknames": [ "Sin City", "Gambling Capital of the World", "Entertainment Capital of the World" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -645,12 +632,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Savannah": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Savannah",
+    "description": "Savannah, oldest city in Georgia, is one of the few major cities in the South with antebellum charm and architecture remaining intact and has one of the largest historic districts in the country.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Savannah,_Georgia",
+    "wikitravel": "https://wikitravel.org/en/Savannah",
+    "nicknames": [ "America's Most Haunted City", "Turf Grass Capital of the World", "The Hostess City of the South" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -687,12 +673,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Portland": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Portland",
+    "description": "Portland is the largest city in Oregon and the second largest city in the Pacific Northwest after Seattle and is noted for its scenic beauty, great outdoors environment, a large number of microbreweries, and its eco-friendly urban planning policies",
+    "wikipedia": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+    "wikitravel": "https://wikitravel.org/en/Portland_(Oregon)",
+    "nicknames": [ "City of Roses", "P-Town", "City of Churches", "Bridge City", "Rip City" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -729,12 +714,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Cleveland": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Cleveland",
+    "description": "Cleveland, in Ohio, is a culturally diverse city on the shores of Lake Erie, one of the Great Lakes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cleveland",
+    "wikitravel": "https://wikitravel.org/en/Cleveland",
+    "nicknames": [ "The Forest City", "America's North Coast", "The Best Location in the Nation", "C-land", "City of Light", "The Rock and Roll Capital of the World" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -771,12 +755,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Pittsburgh": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Pittsburgh",
+    "description": "Pittsburgh, in southwestern Pennsylvania, is situated at the confluence of the Monongahela and Allegheny Rivers, which meet to form the Ohio River; and it's unique terrain has resulted in an unusual city design and a hodge-podge of unique neighborhoods with diverse ethnic and architectural heritage",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh",
+    "wikitravel": "https://wikitravel.org/en/Pittsburgh",
+    "nicknames": [ "City of Bridges", "Steel City", "City of Champions", "The 'Burgh" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
@@ -813,12 +796,11 @@
     "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
   },
   "Salt Lake City": {
-    "name": "San Francisco",
-    "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-    "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
-    "wikitravel": "https://wikitravel.org/en/San_Francisco",
-    "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+    "name": "Salt Lake City",
+    "description": "Salt Lake City, the capital and largest city of Utah, was thrust into world spotlight by the 2002 Winter Olympics",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+    "wikitravel": "https://wikitravel.org/en/Salt_Lake_City",
+    "nicknames": [ "City of the Saints", "Crossroads of the West", "Small Lake City", "Smog Lake City" ],
     "landmarks": {
       "Golden Gate Bridge": {
         "tidbits": [
