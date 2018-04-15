@@ -137,690 +137,644 @@
         }
       },
       "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Disneyland" ]
+    },
+    "Chicago": {
+      "name": "Chicago",
+      "description": "Chicago, officially the City of Chicago, is the third most populous city in the United States.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chicago",
+      "wikitravel": "https://wikitravel.org/en/Chicago",
+      "nicknames": [ "Mud City", "City in a Garden", "The Windy City", "The City of the Big Shoulders", "The real Gotham" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Seattle": {
+      "name": "Seattle",
+      "description": "Seattle is a seaport city on the west coast of the United States and the largest city in the Pacific Northwest",
+      "wikipedia": "https://en.wikipedia.org/wiki/Seattle",
+      "wikitravel": "https://wikitravel.org/en/Seattle",
+      "nicknames": [ "City of Flowers", "Emerald City", "Queen City" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "San Diego": {
+      "name": "San Diego",
+      "description": "San Diego is a large and pleasant coastal city right on the Pacific Ocean in Southern California",
+      "wikipedia": "https://en.wikipedia.org/wiki/San_Diego",
+      "wikitravel": "https://wikitravel.org/en/San_Diego",
+      "nicknames": [ "America's Finest City", "City in Motion", "Sun Dog", "Silicon Beach" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Honolulu": {
+      "name": "Honolulu",
+      "description": "Honolulu, on the island of Oahu, is the capital and largest city of the state of Hawaii",
+      "wikipedia": "https://en.wikipedia.org/wiki/Honolulu",
+      "wikitravel": "https://wikitravel.org/en/Honolulu",
+      "nicknames": [ "The Big Pineapple", "Crossroads of the Pacific", "Sheltered Bay", "Paradise" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Miami": {
+      "name": "Miami",
+      "description": "Miami is a major port city on the Atlantic coast of south Florida in the southeastern United States",
+      "wikipedia": "https://en.wikipedia.org/wiki/Miami",
+      "wikitravel": "https://wikitravel.org/en/Miami",
+      "nicknames": [ "Magic City", "The Gateway to the Americas", "Capital of Latin America" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Houston": {
+      "name": "Houston",
+      "description": "Houston is the most populous city in Texas and the fourth-most populous city in the United States",
+      "wikipedia": "https://en.wikipedia.org/wiki/Houston",
+      "wikitravel": "https://wikitravel.org/en/Houston",
+      "nicknames": [ "Big Heart", "Space City", "Clutch City", "City of Syrup", "Bayou City", "Magnolia City" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Philadelphia": {
+      "name": "Philadelphia",
+      "description": "Philadelphia, often referred to as Philly, is the largest city in the Commonwealth of Pennsylvania and the sixth-most populous city in the United States",
+      "wikipedia": "https://en.wikipedia.org/wiki/Philadelphia",
+      "wikitravel": "https://wikitravel.org/en/Philadelphia",
+      "nicknames": [ "The City of Brotherly Love", "The Athens of America", "The Birthplace of America", "The Cradle of Liberty", "The Workshop of the World" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Phoenix": {
+      "name": "Phoenix",
+      "description": "Phoenix is the capital of Arizona as well as the most populous city in the American Southwest and sixth largest city in the United States",
+      "wikipedia": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
+      "wikitravel": "https://wikitravel.org/en/Phoenix",
+      "nicknames": [ "Valley of the Sun", "Silicon Desert", "PHX" ],
+      "landmarks": {
+        "Golden Gate Bridge": {
+          "tidbits": [
+            "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
+            "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
+            "if you untangled all of its cables, they would stretch around the world 3 times"
+          ]
+        },
+        "Alcatraz Island": {
+          "tidbits": [
+            "developed with facilities for a lighthouse, a military fortification, a military prison",
+            "it had a federal prison from 1934 to 1963",
+            "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          ]
+        },
+        "Lombard Street": {
+          "tidbits": [
+            "the street is famous for a steep, one-block section with eight hairpin turns. ",
+            "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          ]
+        },
+        "Pier 39": {
+          "tidbits": [
+            "famous for sea lions.",
+            "where you can take a cruise to under a famous bridge."
+          ]
+        },
+        "Cable Cars": {
+          "tidbits": [
+            "world's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "Kansas City": {
+      "name": "Kansas City",
+      "description": "Kansas City is a large, major midwestern city on the border of Missouri and Kansas and the largest city in Missouri",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+      "wikitravel": "https://wikitravel.org/en/Kansas_City",
+      "nicknames": [ "BBQ Capital of the World", "City of Fountains", "Paris of the Plains", "Jazz Capital of the World" ],
+      "landmarks": {
+        "The National Museum of Toys and Miniatures": {
+          "tidbits": [
+            "features one of the nation's largest collection of antique toys and the world's largest collection of contemporary, fine-scale miniatures."
+          ]
+        },
+        "Arabia Steamboat Museum": {
+          "tidbits": [
+            "the museum is a favorite city attraction, a history museum housing 200 tons of cargo from life on the American frontier in 1856."
+          ]
+        },
+        "The Nelson-Atkins Museum of Art": {
+          "tidbits": [
+            "recognized as one of America’s finest art museums, strives to be the place where the power of art engages the spirit of community."
+          ]
+        },
+        "National World War I Museum and Memorial": {
+          "tidbits": [
+            "the memorial and museum is America's leading institution dedicated to remembering, interpreting and understanding the Great War and its enduring impact on the global community."
+          ]
+        },
+        "OZ Museum": {
+          "tidbits": [
+            "a tribute to all things \"Wizard of Oz\", from original book & 1939 movie to Michael Jackson remake."
+          ]
+        }
+      },
+      "steal": [ "OZ Museum", "Union Station", "Arrowhead Stadium", "Kansas City Zoo", "Kansas City Public Library" ]
+    },
+    "New Orleans": {
+      "name": "New Orleans",
+      "description": "New Orleans is one of nation's oldest cities where you'll find the roots of jazz and a blossoming culture that has been long described as being unlike anything else in the United States",
+      "wikipedia": "https://en.wikipedia.org/wiki/New_Orleans",
+      "wikitravel": "https://wikitravel.org/en/New_Orleans",
+      "nicknames": [ "Birthplace of Jazz", "Crescent City", "Paris of the South", "The South's Most Interesting City", "The Big Easy", "Mardi Gras City" ],
+      "landmarks": {
+        "St. Louis Cathedral": {
+          "tidbits": [
+            "the major landmark of the French Quarter is the oldest continuously active cathedral in the U.S."
+          ]
+        },
+        "French Quarter": {
+          "tidbits": [
+            "the heart and cultural center of the city is the French Quarter, a must-see for its high energy, rich history, diverse architecture, music, street performers, renowned jazz clubs."
+          ]
+        },
+        "AirBoat Swamp Tours": {
+          "tidbits": [
+            "airboat ride of South Louisiana bayous and swamps."
+          ]
+        },
+        "Jackson Square": {
+          "tidbits": [
+            "artists & performers ply their trades in a park built in 1721 & lined with historic buildings."
+          ]
+        },
+        "Mardi Gras World": {
+          "tidbits": [
+            "vast, 400,000-sq.-ft. complex where Mardi Gras floats are made & stored, with hourly tours."
+          ]
+        }
+      },
+      "steal": [ "Mardi Gras World", "Jackson Square", "French Quarter", "St. Louis Cathedral" ]
+    },
+    "Austin": {
+      "name": "Austin",
+      "description": "Austin is the capital of Texas and home to a major university as well as an influential center for politics, technology, music, film and (increasingly) a food scene",
+      "wikipedia": "https://en.wikipedia.org/wiki/Austin",
+      "wikitravel": "https://wikitravel.org/en/Austin",
+      "nicknames": [ "ATX", "Bat City", "The Capitol City", "City of the Violet Crown", "Live Music Capital of the World", "River City", "Silicon Hills" ],
+      "landmarks": {
+        "Bullock Texas State History Museum": {
+          "tidbits": [
+            "museum that chronicles the history of Texas with three themed exhibits: Land, Identity and Opportunity."
+          ]
+        },
+        "Texas State Capitol": {
+          "tidbits": [
+            "a beautiful building that shows off many of the natural resources which are so prevalent in Texas, such as limestone and the landscapes."
+          ]
+        },
+        "Texas State Cemetery": {
+          "tidbits": [
+            "some of Texas' most prominent historical figures are buried in this cemetery."
+          ]
+        },
+        "Zach Theatre": {
+          "tidbits": [
+            "ZACH Theatre is a professional theatre company located in Texas - the company is the oldest continuously active theatre company in Texas, and one of the ten oldest in the country."
+          ]
+        },
+        "LBJ Presidential Library": {
+          "tidbits": [
+            "located on a 30-acre site on The University of Texas, the LBJ Presidential Library is one of 14 presidential libraries administered by the National Archives and Records Administration."
+          ]
+        }
+      },
+      "steal": [ "Zach Theatre", "LBJ Presidential Library", "Texas State Cemetery", "Texas State Capitol", "Texas Military Forces Museum" ]
+    },
+    "Las Vegas": {
+      "name": "Las Vegas",
+      "description": "Las Vegas, officially the City of Las Vegas and often known simply as Vegas and located in the Mojave Desert of Southern Nevada, is the largest city in Nevada",
+      "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "wikitravel": "https://wikitravel.org/en/Las_Vegas",
+      "nicknames": [ "Sin City", "Gambling Capital of the World", "Entertainment Capital of the World" ],
+      "landmarks": {
+        "The Strip": {
+          "tidbits": [
+            "lined with upscale casino hotels, the neon-soaked Strip has gambling floors, vast hotel complexes with performance venues for music, comedy and circus-style acts. Attractions like the soaring, choreographed Fountains of Bellagio and the High Roller observation wheel draw crowds."
+          ]
+        },
+        "Pinball Hall of Fame": {
+          "tidbits": [
+            "soaring, iconic fountains featuring dramatic aquatic shows choreographed with music & lights."
+          ]
+        },
+        "Fountains of Bellagio": {
+          "tidbits": [
+            "soaring, iconic fountains featuring dramatic aquatic shows choreographed with music & lights."
+          ]
+        },
+        "Red Rock Canyon National Conservation Area": {
+          "tidbits": [
+            "natural wonder with red rocks draws those looking to hike, rock climb or go for a scenic drive."
+          ]
+        },
+        "Fremont Street Experience": {
+          "tidbits": [
+            "sprawling 24-hour mall featuring a huge LED canopy, casino & restaurant access & free entertainment."
+          ]
+        }
+      },
+      "steal": [ "The Strip", "Fremont Street Experience", "Bellagio Hotels", "Red Rock Canyon National Conservation Area", "Wynn Las Vegas Casino" ]
+    },
+    "Savannah": {
+      "name": "Savannah",
+      "description": "Savannah, oldest city in Georgia, is one of the few major cities in the South with antebellum charm and architecture remaining intact and has one of the largest historic districts in the country.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Savannah,_Georgia",
+      "wikitravel": "https://wikitravel.org/en/Savannah",
+      "nicknames": [ "America's Most Haunted City", "Turf Grass Capital of the World", "The Hostess City of the South" ],
+      "landmarks": {
+        "Skidaway Island State Park": {
+          "tidbits": [
+            "this park borders Skidaway narrows, a part of Georgia’s intracoastal waterway. Trails wind through maritime forest and past salt marsh, leading to a boardwalk and observation tower."
+          ]
+        },
+        "Webb Military Museum": {
+          "tidbits": [
+            "the museum features military artifacts from the American Civil War to Desert Storm. "
+          ]
+        },
+        "Pin Point Heritage Museum": {
+          "tidbits": [
+            "is your chance to experience the Gullah/Geechee from Georgia culture first hand."
+          ]
+        },
+        "Cathedral of St. John the Baptist": {
+          "tidbits": [
+            "the oldest Roman Catholic church in Georgia."
+          ]
+        }
+      },
+      "steal": [ "Webb Military Museum", "Cathedral of St. John the Baptist", "Skidaway Island State Park", "Talmadge Memorial Bridge" ]
+    },
+    "Portland": {
+      "name": "Portland",
+      "description": "Portland is the largest city in Oregon and the second largest city in the Pacific Northwest after Seattle and is noted for its scenic beauty, great outdoors environment, a large number of microbreweries, and its eco-friendly urban planning policies",
+      "wikipedia": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+      "wikitravel": "https://wikitravel.org/en/Portland_(Oregon)",
+      "nicknames": [ "City of Roses", "P-Town", "City of Churches", "Bridge City", "Rip City" ],
+      "landmarks": {
+        "St. Johns Bridge": {
+          "tidbits": [
+            "steel suspension bridge that spans the Willamette River in Oregon"
+          ]
+        },
+        "Forest Park": {
+          "tidbits": [
+            "5,000+-acre wooded area with trails for hiking, biking & bird-watching, including a 30-mile route."
+          ]
+        },
+        "Oregon Historical Society": {
+          "tidbits": [
+            "rotating exhibits give insight into state history, art & more in building with 8-story-high murals."
+          ]
+        },
+        "Oregon Zoo": {
+          "tidbits": [
+            "64-acre zoo featuring elephants, polar bears & other animal exhibits emphasizing conservation."
+          ]
+        }
+      },
+      "steal": [ "Hoyt Arboretum", "Portland Farmers Market", "Portland Japanese Garden", "St. Johns Bridge" ]
+    },
+    "Cleveland": {
+      "name": "Cleveland",
+      "description": "Cleveland, in Ohio, is a culturally diverse city on the shores of Lake Erie, one of the Great Lakes",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cleveland",
+      "wikitravel": "https://wikitravel.org/en/Cleveland",
+      "nicknames": [ "The Forest City", "America's North Coast", "The Best Location in the Nation", "C-land", "City of Light", "The Rock and Roll Capital of the World" ],
+      "landmarks": {
+        "Progressive Field": {
+          "tidbits": [
+            "Indians ballpark seats more than 43,000 people and features three levels of suites and a large-tiered stadium club."
+          ]
+        },
+        "USS Cod Submarine Memorial": {
+          "tidbits": [
+            "tour the submarine responsible for the sinking of nearly 30,000 tons of Japanese ships during WWII."
+          ]
+        },
+        "Garfield Tomb": {
+          "tidbits": [
+            "ornate mausoleum with Lake Erie views housing the caskets of President James Garfield & family."
+          ]
+        },
+        "Great Lakes Science Center": {
+          "tidbits": [
+            "a restored 1925 Great Lakes freighter, open May to October for tours & exhibits."
+          ]
+        },
+        "Rock & Roll Hall of Fame": {
+          "tidbits": [
+            "iconic music-minded museum loaded with pop-culture memorabilia, artifacts, instruments & a jukebox."
+          ]
+        }
+      },
+      "steal": [ "Cleveland Museum of Art", "Progressive Field", "Heinen's Downtown", "Cleveland Public Library", "Rock & Roll Hall of Fame" ]
+    },
+    "Pittsburgh": {
+      "name": "Pittsburgh",
+      "description": "Pittsburgh, in southwestern Pennsylvania, is situated at the confluence of the Monongahela and Allegheny Rivers, which meet to form the Ohio River; and it's unique terrain has resulted in an unusual city design and a hodge-podge of unique neighborhoods with diverse ethnic and architectural heritage",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh",
+      "wikitravel": "https://wikitravel.org/en/Pittsburgh",
+      "nicknames": [ "City of Bridges", "Steel City", "City of Champions", "The 'Burgh" ],
+      "landmarks": {
+        "The Andy Warhol Museum": {
+          "tidbits": [
+            "museum where Warhol's art is the star & the inspiration for new works, performances & lectures."
+          ]
+        },
+        "Carnegie Science Center": {
+          "tidbits": [
+            "museum & research center offers science-related exhibits, a planetarium, live shows & kids programs."
+          ]
+        },
+        "Phipps Conservatory and Botanical Gardens": {
+          "tidbits": [
+            "Schenley Park's horticulture hub features botanical gardens & a steel-&-glass Victorian greenhouse."
+          ]
+        },
+        "National Aviary": {
+          "tidbits": [
+            "bird zoo with 500+ birds from 150+ species offers interactive encounters, feedings & party packages."
+          ]
+        },
+        "Carnegie Museum of Natural History": {
+          "tidbits": [
+            "landmark museum featuring exhibits on dinosaur bones, geology & the impact of humans on ecosystems."
+          ]
+        }
+      },
+      "steal": [ "Mount Washington", "University of Pittsburgh", "National Aviary", "Carnegie Science Center", "Andy Warhol Museum" ]
+    },
+    "Salt Lake City": {
+      "name": "Salt Lake City",
+      "description": "Salt Lake City, the capital and largest city of Utah, was thrust into world spotlight by the 2002 Winter Olympics",
+      "wikipedia": "https://en.wikipedia.org/wiki/Salt_Lake_City",
+      "wikitravel": "https://wikitravel.org/en/Salt_Lake_City",
+      "nicknames": [ "City of the Saints", "Crossroads of the West", "Small Lake City", "Smog Lake City" ],
+      "landmarks": {
+        "Big Cottonwood Canyon": {
+          "tidbits": [
+            "home to two world-class ski resorts, legendary rock climbing routes, epic backcountry skiing access, hiking and mountain biking trails, and picnic areas straight out of an outdoor magazine."
+          ]
+        },
+        "Gilgal Sculpture Garden": {
+          "tidbits": [
+            "whimsical, off-the-beaten-path public green space exhibiting original statues & engravings."
+          ]
+        },
+        "Tracy Aviary": {
+          "tidbits": [
+            "Liberty Park’s 8-acre aviary offers exhibits, shows & encounters where guests can view & feed birds."
+          ]
+        },
+        "Hogle Zoo": {
+          "tidbits": [
+            "modern, 42-acre zoo boasting hundreds of animals & tropical gardens, plus a train & carousel."
+          ]
+        },
+        "Temple Square": {
+          "tidbits": [
+            "plaza owned by the Mormon church, with landscaped grounds, a visitors' center, walking tours & more."
+          ]
+        },
+        "Natural History Museum of Utah": {
+          "tidbits": [
+            "modern venue with 10 galleries exploring earth science & Utah’s native cultures in a scenic locale."
+          ]
+        }
+      },
+      "steal": [ "Natural History Museum of Utah", "Utah State Capitol", "Salt Lake City Public Library", "The Tracy Aviary" ]
     }
-  },
-  "Chicago": {
-    "name": "Chicago",
-    "description": "Chicago, officially the City of Chicago, is the third most populous city in the United States.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Chicago",
-    "wikitravel": "https://wikitravel.org/en/Chicago",
-    "nicknames": [ "Mud City", "City in a Garden", "The Windy City", "The City of the Big Shoulders", "The real Gotham" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Seattle": {
-    "name": "Seattle",
-    "description": "Seattle is a seaport city on the west coast of the United States and the largest city in the Pacific Northwest",
-    "wikipedia": "https://en.wikipedia.org/wiki/Seattle",
-    "wikitravel": "https://wikitravel.org/en/Seattle",
-    "nicknames": [ "City of Flowers", "Emerald City", "Queen City" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "San Diego": {
-    "name": "San Diego",
-    "description": "San Diego is a large and pleasant coastal city right on the Pacific Ocean in Southern California",
-    "wikipedia": "https://en.wikipedia.org/wiki/San_Diego",
-    "wikitravel": "https://wikitravel.org/en/San_Diego",
-    "nicknames": [ "America's Finest City", "City in Motion", "Sun Dog", "Silicon Beach" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Honolulu": {
-    "name": "Honolulu",
-    "description": "Honolulu, on the island of Oahu, is the capital and largest city of the state of Hawaii",
-    "wikipedia": "https://en.wikipedia.org/wiki/Honolulu",
-    "wikitravel": "https://wikitravel.org/en/Honolulu",
-    "nicknames": [ "The Big Pineapple", "Crossroads of the Pacific", "Sheltered Bay", "Paradise" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Miami": {
-    "name": "Miami",
-    "description": "Miami is a major port city on the Atlantic coast of south Florida in the southeastern United States",
-    "wikipedia": "https://en.wikipedia.org/wiki/Miami",
-    "wikitravel": "https://wikitravel.org/en/Miami",
-    "nicknames": [ "Magic City", "The Gateway to the Americas", "Capital of Latin America" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Houston": {
-    "name": "Houston",
-    "description": "Houston is the most populous city in Texas and the fourth-most populous city in the United States",
-    "wikipedia": "https://en.wikipedia.org/wiki/Houston",
-    "wikitravel": "https://wikitravel.org/en/Houston",
-    "nicknames": [ "Big Heart", "Space City", "Clutch City", "City of Syrup", "Bayou City", "Magnolia City" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Philadelphia": {
-    "name": "Philadelphia",
-    "description": "Philadelphia, often referred to as Philly, is the largest city in the Commonwealth of Pennsylvania and the sixth-most populous city in the United States",
-    "wikipedia": "https://en.wikipedia.org/wiki/Philadelphia",
-    "wikitravel": "https://wikitravel.org/en/Philadelphia",
-    "nicknames": [ "The City of Brotherly Love", "The Athens of America", "The Birthplace of America", "The Cradle of Liberty", "The Workshop of the World" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Phoenix": {
-    "name": "Phoenix",
-    "description": "Phoenix is the capital of Arizona as well as the most populous city in the American Southwest and sixth largest city in the United States",
-    "wikipedia": "https://en.wikipedia.org/wiki/Phoenix,_Arizona",
-    "wikitravel": "https://wikitravel.org/en/Phoenix",
-    "nicknames": [ "Valley of the Sun", "Silicon Desert", "PHX" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Kansas City": {
-    "name": "Kansas City",
-    "description": "Kansas City is a large, major midwestern city on the border of Missouri and Kansas and the largest city in Missouri",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
-    "wikitravel": "https://wikitravel.org/en/Kansas_City",
-    "nicknames": [ "BBQ Capital of the World", "City of Fountains", "Paris of the Plains", "Jazz Capital of the World" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "New Orleans": {
-    "name": "New Orleans",
-    "description": "New Orleans is one of nation's oldest cities where you'll find the roots of jazz and a blossoming culture that has been long described as being unlike anything else in the United States",
-    "wikipedia": "https://en.wikipedia.org/wiki/New_Orleans",
-    "wikitravel": "https://wikitravel.org/en/New_Orleans",
-    "nicknames": [ "Birthplace of Jazz", "Crescent City", "Paris of the South", "The South's Most Interesting City", "The Big Easy", "Mardi Gras City" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Austin": {
-    "name": "Austin",
-    "description": "Austin is the capital of Texas and home to a major university as well as an influential center for politics, technology, music, film and (increasingly) a food scene",
-    "wikipedia": "https://en.wikipedia.org/wiki/Austin",
-    "wikitravel": "https://wikitravel.org/en/Austin",
-    "nicknames": [ "ATX", "Bat City", "The Capitol City", "City of the Violet Crown", "Live Music Capital of the World", "River City", "Silicon Hills" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Las Vegas": {
-    "name": "Las Vegas",
-    "description": "Las Vegas, officially the City of Las Vegas and often known simply as Vegas and located in the Mojave Desert of Southern Nevada, is the largest city in Nevada",
-    "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas",
-    "wikitravel": "https://wikitravel.org/en/Las_Vegas",
-    "nicknames": [ "Sin City", "Gambling Capital of the World", "Entertainment Capital of the World" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Savannah": {
-    "name": "Savannah",
-    "description": "Savannah, oldest city in Georgia, is one of the few major cities in the South with antebellum charm and architecture remaining intact and has one of the largest historic districts in the country.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Savannah,_Georgia",
-    "wikitravel": "https://wikitravel.org/en/Savannah",
-    "nicknames": [ "America's Most Haunted City", "Turf Grass Capital of the World", "The Hostess City of the South" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Portland": {
-    "name": "Portland",
-    "description": "Portland is the largest city in Oregon and the second largest city in the Pacific Northwest after Seattle and is noted for its scenic beauty, great outdoors environment, a large number of microbreweries, and its eco-friendly urban planning policies",
-    "wikipedia": "https://en.wikipedia.org/wiki/Portland,_Oregon",
-    "wikitravel": "https://wikitravel.org/en/Portland_(Oregon)",
-    "nicknames": [ "City of Roses", "P-Town", "City of Churches", "Bridge City", "Rip City" ],
-    "landmarks": {
-      "Golden Gate Bridge": {
-        "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
-        ]
-      },
-      "Alcatraz Island": {
-        "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
-        ]
-      },
-      "Lombard Street": {
-        "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
-        ]
-      },
-      "Pier 39": {
-        "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
-        ]
-      },
-      "Cable Cars": {
-        "tidbits": [
-          "world's last manually operated cable car system."
-        ]
-      }
-    },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
-  },
-  "Cleveland": {
-    "name": "Cleveland",
-    "description": "Cleveland, in Ohio, is a culturally diverse city on the shores of Lake Erie, one of the Great Lakes",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cleveland",
-    "wikitravel": "https://wikitravel.org/en/Cleveland",
-    "nicknames": [ "The Forest City", "America's North Coast", "The Best Location in the Nation", "C-land", "City of Light", "The Rock and Roll Capital of the World" ],
-    "landmarks": {
-      "Progressive Field": {
-        "tidbits": [
-          "Indians ballpark seats more than 43,000 people and features three levels of suites and a large-tiered stadium club."
-        ]
-      },
-      "USS Cod Submarine Memorial": {
-        "tidbits": [
-          "tour the submarine responsible for the sinking of nearly 30,000 tons of Japanese ships during WWII."
-        ]
-      },
-      "Garfield Tomb": {
-        "tidbits": [
-          "ornate mausoleum with Lake Erie views housing the caskets of President James Garfield & family."
-        ]
-      },
-      "Great Lakes Science Center": {
-        "tidbits": [
-          "a restored 1925 Great Lakes freighter, open May to October for tours & exhibits."
-        ]
-      },
-      "Rock & Roll Hall of Fame": {
-        "tidbits": [
-          "iconic music-minded museum loaded with pop-culture memorabilia, artifacts, instruments & a jukebox."
-        ]
-      }
-    },
-    "steal": [ "Cleveland Museum of Art", "Progressive Field", "Heinen's Downtown", "Cleveland Public Library", "Rock & Roll Hall of Fame" ]
-  },
-  "Pittsburgh": {
-    "name": "Pittsburgh",
-    "description": "Pittsburgh, in southwestern Pennsylvania, is situated at the confluence of the Monongahela and Allegheny Rivers, which meet to form the Ohio River; and it's unique terrain has resulted in an unusual city design and a hodge-podge of unique neighborhoods with diverse ethnic and architectural heritage",
-    "wikipedia": "https://en.wikipedia.org/wiki/Pittsburgh",
-    "wikitravel": "https://wikitravel.org/en/Pittsburgh",
-    "nicknames": [ "City of Bridges", "Steel City", "City of Champions", "The 'Burgh" ],
-    "landmarks": {
-      "The Andy Warhol Museum": {
-        "tidbits": [
-          "museum where Warhol's art is the star & the inspiration for new works, performances & lectures."
-        ]
-      },
-      "Carnegie Science Center": {
-        "tidbits": [
-          "museum & research center offers science-related exhibits, a planetarium, live shows & kids programs."
-        ]
-      },
-      "Phipps Conservatory and Botanical Gardens": {
-        "tidbits": [
-          "Schenley Park's horticulture hub features botanical gardens & a steel-&-glass Victorian greenhouse."
-        ]
-      },
-      "National Aviary": {
-        "tidbits": [
-          "bird zoo with 500+ birds from 150+ species offers interactive encounters, feedings & party packages."
-        ]
-      },
-      "Carnegie Museum of Natural History": {
-        "tidbits": [
-          "landmark museum featuring exhibits on dinosaur bones, geology & the impact of humans on ecosystems."
-        ]
-      }
-    },
-    "steal": [ "Mount Washington", "University of Pittsburgh", "National Aviary", "Carnegie Science Center", "Andy Warhol Museum" ]
-  },
-  "Salt Lake City": {
-    "name": "Salt Lake City",
-    "description": "Salt Lake City, the capital and largest city of Utah, was thrust into world spotlight by the 2002 Winter Olympics",
-    "wikipedia": "https://en.wikipedia.org/wiki/Salt_Lake_City",
-    "wikitravel": "https://wikitravel.org/en/Salt_Lake_City",
-    "nicknames": [ "City of the Saints", "Crossroads of the West", "Small Lake City", "Smog Lake City" ],
-    "landmarks": {
-      "Big Cottonwood Canyon": {
-        "tidbits": [
-          "home to two world-class ski resorts, legendary rock climbing routes, epic backcountry skiing access, hiking and mountain biking trails, and picnic areas straight out of an outdoor magazine."
-        ]
-      },
-      "Gilgal Sculpture Garden": {
-        "tidbits": [
-          "whimsical, off-the-beaten-path public green space exhibiting original statues & engravings."
-        ]
-      },
-      "Tracy Aviary": {
-        "tidbits": [
-          "Liberty Park’s 8-acre aviary offers exhibits, shows & encounters where guests can view & feed birds."
-        ]
-      },
-      "Hogle Zoo": {
-        "tidbits": [
-          "modern, 42-acre zoo boasting hundreds of animals & tropical gardens, plus a train & carousel."
-        ]
-      },
-      "Temple Square": {
-        "tidbits": [
-          "plaza owned by the Mormon church, with landscaped grounds, a visitors' center, walking tours & more."
-        ]
-      },
-      "Natural History Museum of Utah": {
-        "tidbits": [
-          "modern venue with 10 galleries exploring earth science & Utah’s native cultures in a scenic locale."
-        ]
-      }
-    },
-    "steal": [ "Natural History Museum of Utah", "Utah State Capitol", "Salt Lake City Public Library", "The Tracy Aviary" ]
   }
 }
