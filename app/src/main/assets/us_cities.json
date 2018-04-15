@@ -720,39 +720,33 @@
     "wikitravel": "https://wikitravel.org/en/Cleveland",
     "nicknames": [ "The Forest City", "America's North Coast", "The Best Location in the Nation", "C-land", "City of Light", "The Rock and Roll Capital of the World" ],
     "landmarks": {
-      "Golden Gate Bridge": {
+      "Progressive Field": {
         "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
+          "Indians ballpark seats more than 43,000 people and features three levels of suites and a large-tiered stadium club."
         ]
       },
-      "Alcatraz Island": {
+      "USS Cod Submarine Memorial": {
         "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          "tour the submarine responsible for the sinking of nearly 30,000 tons of Japanese ships during WWII."
         ]
       },
-      "Lombard Street": {
+      "Garfield Tomb": {
         "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          "ornate mausoleum with Lake Erie views housing the caskets of President James Garfield & family."
         ]
       },
-      "Pier 39": {
+      "Great Lakes Science Center": {
         "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
+          "a restored 1925 Great Lakes freighter, open May to October for tours & exhibits."
         ]
       },
-      "Cable Cars": {
+      "Rock & Roll Hall of Fame": {
         "tidbits": [
-          "world's last manually operated cable car system."
+          "iconic music-minded museum loaded with pop-culture memorabilia, artifacts, instruments & a jukebox."
         ]
       }
     },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    "steal": [ "Cleveland Museum of Art", "Progressive Field", "Heinen's Downtown", "Cleveland Public Library", "Rock & Roll Hall of Fame" ]
   },
   "Pittsburgh": {
     "name": "Pittsburgh",
@@ -761,39 +755,33 @@
     "wikitravel": "https://wikitravel.org/en/Pittsburgh",
     "nicknames": [ "City of Bridges", "Steel City", "City of Champions", "The 'Burgh" ],
     "landmarks": {
-      "Golden Gate Bridge": {
+      "The Andy Warhol Museum": {
         "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
+          "museum where Warhol's art is the star & the inspiration for new works, performances & lectures."
         ]
       },
-      "Alcatraz Island": {
+      "Carnegie Science Center": {
         "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          "museum & research center offers science-related exhibits, a planetarium, live shows & kids programs."
         ]
       },
-      "Lombard Street": {
+      "Phipps Conservatory and Botanical Gardens": {
         "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          "Schenley Park's horticulture hub features botanical gardens & a steel-&-glass Victorian greenhouse."
         ]
       },
-      "Pier 39": {
+      "National Aviary": {
         "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
+          "bird zoo with 500+ birds from 150+ species offers interactive encounters, feedings & party packages."
         ]
       },
-      "Cable Cars": {
+      "Carnegie Museum of Natural History": {
         "tidbits": [
-          "world's last manually operated cable car system."
+          "landmark museum featuring exhibits on dinosaur bones, geology & the impact of humans on ecosystems."
         ]
       }
     },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    "steal": [ "Mount Washington", "University of Pittsburgh", "National Aviary", "Carnegie Science Center", "Andy Warhol Museum" ]
   },
   "Salt Lake City": {
     "name": "Salt Lake City",
@@ -802,38 +790,37 @@
     "wikitravel": "https://wikitravel.org/en/Salt_Lake_City",
     "nicknames": [ "City of the Saints", "Crossroads of the West", "Small Lake City", "Smog Lake City" ],
     "landmarks": {
-      "Golden Gate Bridge": {
+      "Big Cottonwood Canyon": {
         "tidbits": [
-          "the Frommer's travel guide describes it as possibly the most beautiful, certainly the most photographed, bridge in the world",
-          "one of the most iconic bridges in the United States, and has been called one of the Seven Wonders of the Modern World",
-          "if you untangled all of its cables, they would stretch around the world 3 times"
+          "home to two world-class ski resorts, legendary rock climbing routes, epic backcountry skiing access, hiking and mountain biking trails, and picnic areas straight out of an outdoor magazine."
         ]
       },
-      "Alcatraz Island": {
+      "Gilgal Sculpture Garden": {
         "tidbits": [
-          "developed with facilities for a lighthouse, a military fortification, a military prison",
-          "it had a federal prison from 1934 to 1963",
-          "during its 29 years of operation, the penitentiary claimed that no prisoner successfully escaped"
+          "whimsical, off-the-beaten-path public green space exhibiting original statues & engravings."
         ]
       },
-      "Lombard Street": {
+      "Tracy Aviary": {
         "tidbits": [
-          "the street is famous for a steep, one-block section with eight hairpin turns. ",
-          "the famous one-block section, claimed to be \"the crookedest street in the world\""
+          "Liberty Park’s 8-acre aviary offers exhibits, shows & encounters where guests can view & feed birds."
         ]
       },
-      "Pier 39": {
+      "Hogle Zoo": {
         "tidbits": [
-          "famous for sea lions.",
-          "where you can take a cruise to under a famous bridge."
+          "modern, 42-acre zoo boasting hundreds of animals & tropical gardens, plus a train & carousel."
         ]
       },
-      "Cable Cars": {
+      "Temple Square": {
         "tidbits": [
-          "world's last manually operated cable car system."
+          "plaza owned by the Mormon church, with landscaped grounds, a visitors' center, walking tours & more."
+        ]
+      },
+      "Natural History Museum of Utah": {
+        "tidbits": [
+          "modern venue with 10 galleries exploring earth science & Utah’s native cultures in a scenic locale."
         ]
       }
     },
-    "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    "steal": [ "Natural History Museum of Utah", "Utah State Capitol", "Salt Lake City Public Library", "The Tracy Aviary" ]
   }
 }
