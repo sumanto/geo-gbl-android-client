@@ -4,6 +4,11 @@
   "main": {
     "welcome": "You will have to catch a fictional character, but keep your brains sharp as you will need it."
   },
+  "gameplay": {
+    "welcome": "Landmarco Steallioni has just stolen an important landmark, can you catch him before he can get away with it.",
+    "success": "You have successfully caught Landmarco Steallioni and restored sanity.",
+    "failure": "Landmarco Steallioni has escaped your grasp. Better luck next time."
+  },
   "attributes": {
     "eyes": {
       "blue": {

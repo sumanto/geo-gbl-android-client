@@ -55,9 +55,15 @@ public class ChooseGame extends AppCompatActivity {
 
                 spinnerArray.add(cityMetadata.getString("title"));
                 textGameDescription.setText(cityMetadata.getString("description"));
+
             } else if (service.getSchoolDistrict().equals("School district Beta")) {
-                // TODO:
+                JSONObject cityMetadata = Utility.getJSONObjectFromAssetFile(am, "european_cities.json");
+                service.setCityMetadata(cityMetadata);
+
+                spinnerArray.add(cityMetadata.getString("title"));
+                textGameDescription.setText(cityMetadata.getString("description"));
             }
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -86,10 +92,6 @@ public class ChooseGame extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(msg, "Continue button clicked");
-
-                JSONObject cityMetadata = Utility.getJSONObjectFromAssetFile(am, "us_cities.json");;
-                service.setCityMetadata(cityMetadata);
-
 
                 // Set intent to Login page
                 Intent intent = new Intent(getApplicationContext(), NewGame.class);

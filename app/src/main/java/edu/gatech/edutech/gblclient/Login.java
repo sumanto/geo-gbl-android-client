@@ -26,8 +26,8 @@ public class Login extends AppCompatActivity {
     Service service = Service.getInstance();
     Utility utility;
 
-    EditText inputTeacherUserName, inputTeacherName, inputStudentUserName, inputStudentName;
-    Button buttonTeacherLogin, buttonStudentLogin;
+    EditText inputStudentUserName, inputStudentName;
+    Button buttonStudentLogin;
 
 
     @Override
@@ -39,18 +39,9 @@ public class Login extends AppCompatActivity {
         service.clearCache();
         utility = (Utility) getApplicationContext();
 
-        buttonTeacherLogin = findViewById(R.id.buttonTeacherLogin);
-        inputTeacherUserName = findViewById(R.id.inputTeacherUserName);
-        inputTeacherName = findViewById(R.id.inputTeacherName);
-
         buttonStudentLogin = findViewById(R.id.buttonStudentLogin);
         inputStudentUserName = findViewById(R.id.inputStudentUserName);
         inputStudentName = findViewById(R.id.inputStudentName);
-
-        buttonTeacherLogin.setHint("Teacher login is not implemented");
-        buttonTeacherLogin.setEnabled(false);
-        inputTeacherUserName.setEnabled(false);
-        inputTeacherName.setEnabled(false);
 
         buttonStudentLogin.setOnClickListener(new View.OnClickListener() {
             @Override

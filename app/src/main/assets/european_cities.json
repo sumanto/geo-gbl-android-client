@@ -1,14 +1,13 @@
 {
-  "title": "US Cities Geography game",
-  "description": "Geography game to learn about US cities",
+  "title": "European Cities Geography game",
+  "description": "Geography game to learn about European cities",
   "cities": {
-    "San Francisco": {
-      "name": "San Francisco",
+    "London": {
+      "name": "London",
       "description": "San Francisco, officially the City and County of San Francisco, is the cultural, commercial, and financial center of Northern California",
-      "spelled_as": "/ˌsæn frənˈsɪskoʊ, fræn-/",
       "wikipedia": "https://en.wikipedia.org/wiki/San_Francisco",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
-      "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
+      "nicknames": [ "The Square Mile", "The Old Smoke", "The Big Smoke" ],
       "landmarks": {
         "Golden Gate Bridge": {
           "tidbits": [
@@ -44,12 +43,12 @@
       },
       "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
     },
-    "New York": {
-      "name": "New York",
+    "Paris": {
+      "name": "Paris",
       "description": "",
       "wikipedia": "https://en.wikipedia.org/wiki/New_York_City",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
-      "nicknames": [ "The Big Apple", "The City of Dreams", "The City That Never Sleeps", "Empire City" ],
+      "nicknames": [ "The City of Love", "The City of Light", "La Ville-Lumiere" ],
       "landmarks": {
         "Statue of Liberty": {
           "tidbits": [
@@ -74,12 +73,12 @@
       },
       "steal": [ "Statue of Liberty", "Central Park", "Empire State Building", "Times Square", "Brooklyn Bridge" ]
     },
-    "Washington DC": {
-      "name": "Washington DC",
+    "Rome": {
+      "name": "Rome",
       "description": "Capital of the United States of America",
       "wikipedia": "https://en.wikipedia.org/wiki/Washington,_D.C.",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
-      "nicknames": [ "DC", "The American Rome", "The District", "The Federal City", "The Capital of the Free World" ],
+      "nicknames": [ "The Eternal City", "City of the Seven Hills" ],
       "landmarks": {
         "The White House": {
           "tidbits": [
@@ -109,12 +108,12 @@
       },
       "steal": [ "The White House", "National Mall", "Capitol Building", "National Museum of Natural History", "Smithsonian Institute" ]
     },
-    "Los Angeles": {
-      "name": "Los Angeles",
+    "Moscow": {
+      "name": "Moscow",
       "description": "\"Los Angeles\" is the entertainment capital of the world",
       "wikipedia": "https://en.wikipedia.org/wiki/Los_Angeles",
       "wikitravel": "https://wikitravel.org/en/Los_Angeles",
-      "nicknames": [ "The Big Orange", "City of Angels", "City of Flowers and Sunshine", "La La Land" ],
+      "nicknames": [ "The Whitestone", "The Forty Forties", "Third Rome" ],
       "landmarks": {
         "Disneyland": {
           "tidbits": [
