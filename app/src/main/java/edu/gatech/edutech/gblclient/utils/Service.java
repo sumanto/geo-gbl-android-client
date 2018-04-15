@@ -64,6 +64,13 @@ public class Service {
         this.userFullName = userFullName;
     }
 
+    public String getSchoolDistrict() {
+        return schoolDistrict;
+    }
+
+    public void setSchoolDistrict(String schoolDistrict) {
+        this.schoolDistrict = schoolDistrict;
+    }
 
     public String getUserName() {
         return userName;
@@ -336,6 +343,8 @@ public class Service {
 
 
     private Date dateTime;
+
+    private String schoolDistrict;
 
     private String userName;
     private String userFullName;

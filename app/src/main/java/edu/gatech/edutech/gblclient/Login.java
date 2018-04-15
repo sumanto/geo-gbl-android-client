@@ -74,7 +74,7 @@ public class Login extends AppCompatActivity {
                 service.setUser(userName, user);
 
                 // Go to main page now
-                Intent intent = new Intent(getApplicationContext(), NewGame.class);
+                Intent intent = new Intent(getApplicationContext(), ChooseGame.class);
                 startActivity(intent);
             }
         });

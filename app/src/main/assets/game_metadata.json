@@ -1,4 +1,9 @@
 {
+  "title": "Geography game",
+  "description": "A game to learn about geography",
+  "main": {
+    "welcome": "You will have to catch a fictional character, but keep your brains sharp as you will need it."
+  },
   "attributes": {
     "eyes": {
       "blue": {

@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
+        <activity android:name=".ChooseGame" />
         <activity android:name=".NewGame" />
         <activity android:name=".Main" />
         <activity android:name=".ThiefAttributesActivity"/>
